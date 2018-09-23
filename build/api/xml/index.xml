@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="C:/Users/peter/Projects/SNPClient/src">
+  <namespace name="bTd\SNP\Client">
+    <class name="Client" src="bTd/SNP/Client/Client.php" description="Class Client" xml="classes/bTd_SNP_Client_Client.xml"/>
+  </namespace>
+  <namespace name="bTd\SNP\Protocol\Message\Request">
+    <class name="ForwardRequest" src="bTd/SNP/Protocol/Message/Request/ForwardRequest.php" description="Class ForwardRequest" xml="classes/bTd_SNP_Protocol_Message_Request_ForwardRequest.xml"/>
+    
+    <class name="RegisterRequest" src="bTd/SNP/Protocol/Message/Request/RegisterRequest.php" description="Class RegisterRequest" xml="classes/bTd_SNP_Protocol_Message_Request_RegisterRequest.xml"/>
+  <class name="NotifyRequest" src="bTd/SNP/Protocol/Message/Request/NotifyRequest.php" description="Class NotifyRequest" xml="classes/bTd_SNP_Protocol_Message_Request_NotifyRequest.xml"/></namespace>
+  <namespace name="bTd\SNP\Protocol\Message">
+    
+    
+  <class name="Request" src="bTd/SNP/Protocol/Message/Request.php" description="Class Request" xml="classes/bTd_SNP_Protocol_Message_Request.xml"/><class name="Response" src="bTd/SNP/Protocol/Message/Response.php" description="Class Response" xml="classes/bTd_SNP_Protocol_Message_Response.xml"/></namespace>
+  <namespace name="bTd\SNP\Protocol\Response">
+    
+  </namespace>
+  <namespace name="bTd\SNP\Protocol">
+    
+    <class name="Protocol" src="bTd/SNP/Protocol/Protocol.php" description="Class Protocol" xml="classes/bTd_SNP_Protocol_Protocol.xml"/>
+  <class name="Message" src="bTd/SNP/Protocol/Message.php" description="Class Message" xml="classes/bTd_SNP_Protocol_Message.xml"/></namespace>
+  <namespace name="">
+    <class name="Exception" xml="classes/Exception.xml"/>
+  </namespace>
+<namespace name="bTd\SNP\Protocol\Message\Response"><class name="ErrorResponseException" src="bTd/SNP/Protocol/Message/Response/ErrorResponseException.php" description="Class ErrorResponseException" xml="classes/bTd_SNP_Protocol_Message_Response_ErrorResponseException.xml"/></namespace></index>

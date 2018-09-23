@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Protocol" namespace="bTd\SNP\Protocol" name="Protocol" abstract="false" final="true" start="20" end="71">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol" file="Protocol.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Protocol.php" size="1312" time="2018-09-22T17:23:01+02:00" unixtime="1537629781" sha1="8e7712c3adea77e9244525fcf46c9e7403f2a779" relative="bTd/SNP/Protocol/Protocol.php"/>
+  <docblock>
+    <description compact="Class Protocol"/>
+    <package value="bTd\SNP\Protocol"/>
+  </docblock>
+  <constant type="string" name="VERSION" value="&quot;SNP/3.1&quot;">
+    <docblock>
+      <description/>
+      <var description="Contain supported protocol version," type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="EOL" value="&quot;\r\n&quot;">
+    <docblock>
+      <description/>
+      <var description="Contain  the End Of Line string: CRLF." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="TERMINATOR" value="&quot;END&quot;">
+    <docblock>
+      <description/>
+      <var description="Contain the message terminator." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="REQUEST_TYPE_NOTIFY" value="&quot;NOTIFY&quot;">
+    <docblock>
+      <description/>
+      <var description="Notify request type identification." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="REQUEST_TYPE_FORWARD" value="&quot;FORWARD&quot;">
+    <docblock>
+      <description/>
+      <var description="Forward request type identification." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="REQUEST_TYPE_REGISTER" value="&quot;REGISTER&quot;">
+    <docblock>
+      <description/>
+      <var description="Register request type identification." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="RESPONSE_TYPE_SUCCESS" value="&quot;SUCCESS&quot;">
+    <docblock>
+      <description/>
+      <var description="Success response type identification." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="RESPONSE_TYPE_FAILED" value="&quot;FAILED&quot;">
+    <docblock>
+      <description/>
+      <var description="Success response type identification." type="string"/>
+    </docblock>
+  </constant>
+  <constant type="string" name="PASSWORD_HASH_TYPE" value="&quot;SHA256&quot;">
+    <docblock>
+      <description/>
+      <var description="Supported hash." type="string"/>
+    </docblock>
+  </constant>
+</class>

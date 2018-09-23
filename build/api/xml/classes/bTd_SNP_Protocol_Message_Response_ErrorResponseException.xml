@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException" abstract="false" final="false" start="22" end="56">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response" file="ErrorResponseException.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response/ErrorResponseException.php" size="957" time="2018-09-22T20:49:43+02:00" unixtime="1537642183" sha1="285caca2b60cf79d29bc41932d9eda8531753073" relative="bTd/SNP/Protocol/Message/Response/ErrorResponseException.php"/>
+  <docblock>
+    <description compact="Class ErrorResponseException"/>
+    <package value="bTd\SNP\Protocol"/>
+  </docblock>
+  <extends full="Exception" namespace="" name="Exception"/>
+  <member name="reason" visibility="private" static="false" line="27">
+    <docblock>
+      <description/>
+      <var type="string"/>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="38" end="43" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="ErrorResponseException constructor."/>
+      <param type="string" variable="$message"/>
+      <param type="int" variable="$code"/>
+      <param type="string" variable="$reason"/>
+      <param type="object" variable="$previous">
+        <type full="bTd\SNP\Protocol\Message\Response\Throwable|null" namespace="bTd\SNP\Protocol\Message\Response" name="Throwable|null"/>
+      </param>
+    </docblock>
+    <parameter name="message" byreference="false" type="string" default="&quot;&quot;"/>
+    <parameter name="code" byreference="false" type="integer" default="0"/>
+    <parameter name="reason" byreference="false" type="string" default="&quot;&quot;"/>
+    <parameter name="previous" byreference="false" type="object" default="NULL">
+      <type full="Throwable" namespace="" name="Throwable"/>
+    </parameter>
+  </constructor>
+  <method name="getReason" start="49" end="53" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+  <parent full="Exception" namespace="" name="Exception">
+    <member name="message" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The exception message"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+    <member name="code" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The exception code"/>
+      <var type="int"/>
+    </docblock>
+  </member>
+    <member name="file" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The filename where the exception was created"/>
+      <var type="string"/>
+    </docblock>
+  </member>
+    <member name="line" static="false" visibility="protected">
+    <default>null</default>
+    <docblock>
+      <description compact="The line where the exception was created"/>
+      <var type="int"/>
+    </docblock>
+  </member>
+    <constructor name="__construct" abstract="false" static="false" visibility="public" final="false">
+    <docblock>
+      <description compact="Construct the exception"/>
+      <return type="void"/>
+    </docblock>
+    <parameter name="message" optional="true" byreference="false" type="string"/>
+    <parameter name="code" optional="true" byreference="false" type="int"/>
+    <parameter name="previous" optional="true" byreference="false" type="object" class="Throwable"/>
+  </constructor>
+    <method name="getMessage" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the Exception message"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+    <method name="getPrevious" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Returns previous Exception"/>
+      <return type="Throwable"/>
+    </docblock>
+  </method>
+    <method name="getCode" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the Exception code"/>
+      <return type="mixed"/>
+    </docblock>
+  </method>
+    <method name="getFile" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the file in which the exception was created"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+    <method name="getLine" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the line in which the exception was created"/>
+      <return type="int"/>
+    </docblock>
+  </method>
+    <method name="getTrace" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the stack trace"/>
+      <return type="array"/>
+    </docblock>
+  </method>
+    <method name="getTraceAsString" abstract="false" static="false" visibility="public" final="true">
+    <docblock>
+      <description compact="Gets the stack trace as a string"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+    <method name="__toString" abstract="false" static="false" visibility="public" final="false">
+    <docblock>
+      <description compact="String representation of the exception"/>
+      <return type="string"/>
+    </docblock>
+  </method>
+  </parent>
+</class>

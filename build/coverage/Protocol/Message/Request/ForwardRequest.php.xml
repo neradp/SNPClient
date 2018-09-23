@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <file name="ForwardRequest.php" path="/Protocol/Message/Request">
+    <totals>
+      <lines total="55" comments="29" code="26" executable="9" executed="9" percent="100.00"/>
+      <methods count="1" tested="1" percent="100.00"/>
+      <functions count="0" tested="0" percent="0"/>
+      <classes count="1" tested="1" percent="100.00"/>
+      <traits count="0" tested="0" percent="0"/>
+    </totals>
+    <class name="bTd\SNP\Protocol\Message\Request\ForwardRequest" start="25" executable="9" executed="9" crap="1">
+      <package full="bTd" name="bTd" sub="" category=""/>
+      <namespace name="bTd\SNP\Protocol\Message\Request"/>
+      <method name="__construct" signature="__construct(string $source, string $title, string $text, string $icon, int $timeout=0, int $priority=-1, string $callback=&quot;&quot;)" start="39" end="52" crap="1" executable="9" executed="9" coverage="100"/>
+    </class>
+    <coverage>
+      <line nr="42">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="44">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="45">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="46">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="47">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="48">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="49">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="50">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+      <line nr="52">
+        <covered by="ForwardRequestTest::testForwardRequest"/>
+      </line>
+    </coverage>
+    <source>
+      <line no="1">
+        <token name="T_OPEN_TAG">&lt;?php</token>
+      </line>
+      <line no="2">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="3">
+        <token name="T_DOC_COMMENT"> * Copyright (c) 2018. Peter Ner&#xE1;d</token>
+      </line>
+      <line no="4">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="5"/>
+      <line no="6">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="7">
+        <token name="T_DOC_COMMENT"> * Project: SNPClient</token>
+      </line>
+      <line no="8">
+        <token name="T_DOC_COMMENT"> * Author: Peter Ner&#xE1;d</token>
+      </line>
+      <line no="9">
+        <token name="T_DOC_COMMENT"> * Date: 17. 9. 2018</token>
+      </line>
+      <line no="10">
+        <token name="T_DOC_COMMENT"> * Time: 23:53</token>
+      </line>
+      <line no="11">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="12"/>
+      <line no="13">
+        <token name="T_NAMESPACE">namespace</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bTd</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">SNP</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Protocol</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Message</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Request</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="14"/>
+      <line no="15">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bTd</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">SNP</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Protocol</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Message</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Request</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="16">
+        <token name="T_USE">use</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">bTd</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">SNP</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Protocol</token>
+        <token name="T_NS_SEPARATOR">\</token>
+        <token name="T_STRING">Protocol</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="17"/>
+      <line no="18"/>
+      <line no="19">
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="20">
+        <token name="T_DOC_COMMENT"> * Class ForwardRequest</token>
+      </line>
+      <line no="21">
+        <token name="T_DOC_COMMENT"> * @package bTd\SNP\Protocol\Message\Request</token>
+      </line>
+      <line no="22">
+        <token name="T_DOC_COMMENT"> * @TODO Implemment Actions</token>
+      </line>
+      <line no="23">
+        <token name="T_DOC_COMMENT"> * @see https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#forward</token>
+      </line>
+      <line no="24">
+        <token name="T_DOC_COMMENT"> */</token>
+      </line>
+      <line no="25">
+        <token name="T_CLASS">class</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">ForwardRequest</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_EXTENDS">extends</token>
+        <token name="T_WHITESPACE">  </token>
+        <token name="T_STRING">Request</token>
+      </line>
+      <line no="26">
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="27"/>
+      <line no="28"/>
+      <line no="29">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_DOC_COMMENT">/**</token>
+      </line>
+      <line no="30">
+        <token name="T_DOC_COMMENT">     * ForwardRequest constructor.</token>
+      </line>
+      <line no="31">
+        <token name="T_DOC_COMMENT">     * @param string $source From which application came request.</token>
+      </line>
+      <line no="32">
+        <token name="T_DOC_COMMENT">     * @param string $title  Notification title.</token>
+      </line>
+      <line no="33">
+        <token name="T_DOC_COMMENT">     * @param string $text   Notification text.</token>
+      </line>
+      <line no="34">
+        <token name="T_DOC_COMMENT">     * @param string $icon   Notification icon.</token>
+      </line>
+      <line no="35">
+        <token name="T_DOC_COMMENT">     * @param int $timeout   Notification timeout.</token>
+      </line>
+      <line no="36">
+        <token name="T_DOC_COMMENT">     * @param int $priority  Notification priority.</token>
+      </line>
+      <line no="37">
+        <token name="T_DOC_COMMENT">     * @param string $callback  Notification callback.</token>
+      </line>
+      <line no="38">
+        <token name="T_DOC_COMMENT">     */</token>
+      </line>
+      <line no="39">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_PUBLIC">public</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_FUNCTION">function</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">__construct</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$source</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$text</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$icon</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">int</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$timeout</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_LNUMBER">0</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">int</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$priority</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_MINUS">-</token>
+        <token name="T_LNUMBER">1</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_STRING">string</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$callback</token>
+        <token name="T_EQUAL">=</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+      </line>
+      <line no="40">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_OPEN_CURLY">{</token>
+      </line>
+      <line no="41"/>
+      <line no="42">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">setRequestType</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_STRING">Protocol</token>
+        <token name="T_DOUBLE_COLON">::</token>
+        <token name="T_STRING">REQUEST_TYPE_FORWARD</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="43"/>
+      <line no="44">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"source"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$source</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="45">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"title"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$title</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="46">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"text"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$text</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="47">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"icon"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$icon</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="48">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"timeout"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$timeout</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="49">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"priority"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$priority</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="50">
+        <token name="T_WHITESPACE">        </token>
+        <token name="T_VARIABLE">$this</token>
+        <token name="T_OBJECT_OPERATOR">-&gt;</token>
+        <token name="T_STRING">addToContent</token>
+        <token name="T_OPEN_BRACKET">(</token>
+        <token name="T_CONSTANT_ENCAPSED_STRING">"callback"</token>
+        <token name="T_COMMA">,</token>
+        <token name="T_WHITESPACE"> </token>
+        <token name="T_VARIABLE">$callback</token>
+        <token name="T_CLOSE_BRACKET">)</token>
+        <token name="T_SEMICOLON">;</token>
+      </line>
+      <line no="51"/>
+      <line no="52">
+        <token name="T_WHITESPACE">    </token>
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_COMMENT">//end __construct()</token>
+      </line>
+      <line no="53"/>
+      <line no="54"/>
+      <line no="55">
+        <token name="T_CLOSE_CURLY">}</token>
+        <token name="T_COMMENT">//end class</token>
+      </line>
+      <line no="56"/>
+    </source>
+  </file>
+</phpunit>

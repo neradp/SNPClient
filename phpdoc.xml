@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  ~ Copyright (c) 2018. Peter Nerád
+  -->
+
+<phpdoc>
+    <title>SNPClient</title>
+    <parser>
+        <target>output</target>
+        <encoding>utf8</encoding>
+        <markers>
+            <item>TODO</item>
+            <item>FIXME</item>
+        </markers>
+        <extensions>
+            <extension>php</extension>
+            <extension>phtml</extension>
+        </extensions>
+        <visibility></visibility>
+    </parser>
+    <transformer>
+        <target>output</target>
+    </transformer>
+    <logging>
+        <level>warn</level>
+        <paths>
+            <default>{APP_ROOT}/build/log/{DATE}.log</default>
+            <errors>{APP_ROOT}/build/log/{DATE}.errors.log</errors>php
+        </paths>
+    </logging>
+    <transformations>
+        <template name="zend" />
+    </transformations>
+    <files>
+
+        <directory>src</directory>
+
+    </files>
+</phpdoc>

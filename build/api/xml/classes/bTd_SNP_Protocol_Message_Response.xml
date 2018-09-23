@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response" abstract="false" final="false" start="25" end="80">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Response.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response.php" size="1825" time="2018-09-22T20:55:57+02:00" unixtime="1537642557" sha1="dbe7b668d60cfbc05a03f8b00b92becf1c3805d6" relative="bTd/SNP/Protocol/Message/Response.php"/>
+  <docblock>
+    <description compact="Class Response"/>
+    <package value="bTd\SNP\Protocol\Message"/>
+    <see value="https://github.com/fullphat/snarl/wiki/SNP-3.1#response-structure"/>
+  </docblock>
+  <extends full="bTd\SNP\Protocol\Message" namespace="bTd\SNP\Protocol" name="Message"/>
+  <constructor name="__construct" start="35" end="51" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Response constructor."/>
+      <param description="Raw response message." type="string" variable="$response"/>
+      <throws type="object">
+        <type full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/>
+      </throws>
+    </docblock>
+    <parameter name="response" byreference="false" type="string"/>
+    <inline>
+      <comment value="in case message is not success response throw exception" line="46"/>
+    </inline>
+  </constructor>
+  <method name="isSuccess" start="57" end="67" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description/>
+      <return type="object">
+        <type full="bTd\SNP\Protocol\Message\bool" namespace="bTd\SNP\Protocol\Message" name="bool"/>
+      </return>
+    </docblock>
+    <return type="bool" nullable="false"/>
+    <inline>
+      <comment value="check to success response header" line="59"/>
+      <comment value="everything else is bad" line="64"/>
+    </inline>
+  </method>
+  <method name="throwErrorException" start="73" end="77" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description/>
+      <throws type="object">
+        <type full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="Exception" namespace="" name="Exception"/>
+    </return>
+  </method>
+  <parent full="bTd\SNP\Protocol\Message" namespace="bTd\SNP\Protocol" name="Message">
+    <method name="getContent" start="44" end="48" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the whole  content part of the message."/>
+      <return description="The whole content part of message." type="array"/>
+    </docblock>
+    <return type="array" nullable="false"/>
+  </method>
+    <method name="setContent" start="56" end="60" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Set the whole content part of the message."/>
+      <param description="The whole content part of message." type="array" variable="$conntent"/>
+    </docblock>
+    <return type="void" nullable="false"/>
+    <parameter name="content" byreference="false" type="array"/>
+  </method>
+    <method name="addToContent" start="69" end="73" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Add a named value to the content part of message."/>
+      <param description="Name." type="string" variable="$param"/>
+      <param description="Value." type="string" variable="$value"/>
+    </docblock>
+    <return type="void" nullable="false"/>
+    <parameter name="param" byreference="false" type="string"/>
+    <parameter name="value" byreference="false" type="string"/>
+  </method>
+    <method name="getFromContent" start="82" end="86" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get a value from the content part of message by its name."/>
+      <param description="Name." type="string" variable="$param"/>
+      <return description="Value." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+    <parameter name="param" byreference="false" type="string"/>
+  </method>
+    <method name="__toString" start="94" end="105" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Compose message to raw format."/>
+      <return description="The raw format of message." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+    <method name="getHeader" start="113" end="117" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the header part of the message."/>
+      <return description="The message header." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+    <method name="setHeader" start="125" end="129" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Set the header part of the message."/>
+      <param description="The message header." type="string" variable="$header"/>
+    </docblock>
+    <return type="void" nullable="false"/>
+    <parameter name="header" byreference="false" type="string"/>
+  </method>
+    <method name="getTerminator" start="137" end="141" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the terminator part of the message."/>
+      <return description="The terminator part of message." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+  </parent>
+</class>

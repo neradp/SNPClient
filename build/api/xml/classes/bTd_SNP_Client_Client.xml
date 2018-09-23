@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Client\Client" namespace="bTd\SNP\Client" name="Client" abstract="false" final="false" start="26" end="201">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4660" time="2018-09-22T17:30:55+02:00" unixtime="1537630255" sha1="5272ad56e4f67091c37e604fb3f87d15ee45e550" relative="bTd/SNP/Client/Client.php"/>
+  <docblock>
+    <description compact="Class Client"/>
+    <package value="bTd\SNP\Client"/>
+  </docblock>
+  <member name="port" default="9731" type="integer" visibility="private" static="false" line="31">
+    <docblock>
+      <description/>
+      <var description="Port of server" type="int"/>
+    </docblock>
+  </member>
+  <member name="socket" default="NULL" visibility="private" static="false" line="35">
+    <docblock>
+      <description/>
+      <var type="object">
+        <type full="bTd\SNP\Client\null|resource" namespace="bTd\SNP\Client" name="null|resource"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="host" visibility="private" static="false" line="39">
+    <docblock>
+      <description/>
+      <var description="IP address of server" type="string"/>
+    </docblock>
+  </member>
+  <member name="password" default="NULL" visibility="private" static="false" line="43">
+    <docblock>
+      <description/>
+      <var description="Password used to verify messages against server" type="object">
+        <type full="bTd\SNP\Client\null|string" namespace="bTd\SNP\Client" name="null|string"/>
+      </var>
+    </docblock>
+  </member>
+  <member name="appID" default="NULL" visibility="private" static="false" line="47">
+    <docblock>
+      <description/>
+      <var description="Application registration identification" type="null"/>
+    </docblock>
+  </member>
+  <constructor name="__construct" start="57" end="66" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Client constructor."/>
+      <param description="Server IP address." type="string" variable="$host"/>
+      <param description="Server port." type="int" variable="$port"/>
+      <param description="Password to verify." type="object" variable="$password">
+        <type full="bTd\SNP\Client\string|null" namespace="bTd\SNP\Client" name="string|null"/>
+      </param>
+      <throws type="object">
+        <type full="\RuntimeException" namespace="" name="RuntimeException"/>
+      </throws>
+    </docblock>
+    <parameter name="host" byreference="false" type="string"/>
+    <parameter name="port" byreference="false" type="integer" default="9731"/>
+    <parameter name="password" byreference="false" type="string" default="NULL"/>
+    <inline>
+      <comment value="create socket" line="62"/>
+    </inline>
+  </constructor>
+  <method name="error" start="74" end="79" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Compose RuntimeException from socket error and throws it."/>
+      <throws type="object">
+        <type full="\RuntimeException" namespace="" name="RuntimeException"/>
+      </throws>
+    </docblock>
+  </method>
+  <method name="connect" start="87" end="92" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Connect socket  to server."/>
+      <throws type="object">
+        <type full="\RuntimeException" namespace="" name="RuntimeException"/>
+      </throws>
+    </docblock>
+  </method>
+  <method name="send" start="101" end="106" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Send raw data to socket."/>
+      <param description="Data to send to opened socket." type="string" variable="$data"/>
+      <throws type="object">
+        <type full="\RuntimeException" namespace="" name="RuntimeException"/>
+      </throws>
+    </docblock>
+    <parameter name="data" byreference="false" type="string"/>
+  </method>
+  <method name="get" start="114" end="119" abstract="false" final="false" static="false" visibility="private">
+    <docblock>
+      <description compact="Read raw data from opened socket."/>
+      <return type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+  <method name="sendRequest" start="129" end="140" abstract="false" final="false" static="false" visibility="protected">
+    <docblock>
+      <description compact="Send SNP Request message to server."/>
+      <param type="object" variable="$request">
+        <type full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request"/>
+      </param>
+      <return type="object">
+        <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+      </return>
+      <throws type="object">
+        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException|\Exception" namespace="\bTd\SNP\Protocol\Response\ErrorResponseException|" name="Exception"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+    </return>
+    <parameter name="request" byreference="false" type="object">
+      <type full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request"/>
+    </parameter>
+    <inline>
+      <comment value="set password authentication for request" line="131"/>
+    </inline>
+  </method>
+  <method name="notify" start="150" end="159" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Send SNP Notify Request message to server."/>
+      <param type="object" variable="$notification">
+        <type full="bTd\SNP\Protocol\Message\Request\NotifyRequest" namespace="bTd\SNP\Protocol\Message\Request" name="NotifyRequest"/>
+      </param>
+      <return type="object">
+        <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+      </return>
+      <throws type="object">
+        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Response" name="ErrorResponseException"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+    </return>
+    <parameter name="notification" byreference="false" type="object">
+      <type full="bTd\SNP\Protocol\Message\Request\NotifyRequest" namespace="bTd\SNP\Protocol\Message\Request" name="NotifyRequest"/>
+    </parameter>
+  </method>
+  <method name="register" start="168" end="175" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Send SNP Register Request message to server."/>
+      <param type="object" variable="$application">
+        <type full="bTd\SNP\Protocol\Message\Request\RegisterRequest" namespace="bTd\SNP\Protocol\Message\Request" name="RegisterRequest"/>
+      </param>
+      <return type="object">
+        <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+      </return>
+      <throws type="object">
+        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Response" name="ErrorResponseException"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+    </return>
+    <parameter name="application" byreference="false" type="object">
+      <type full="bTd\SNP\Protocol\Message\Request\RegisterRequest" namespace="bTd\SNP\Protocol\Message\Request" name="RegisterRequest"/>
+    </parameter>
+  </method>
+  <method name="forward" start="184" end="189" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Send SNP Forward Request message to server."/>
+      <param type="object" variable="$forward">
+        <type full="bTd\SNP\Protocol\Message\Request\ForwardRequest" namespace="bTd\SNP\Protocol\Message\Request" name="ForwardRequest"/>
+      </param>
+      <return type="object">
+        <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+      </return>
+      <throws type="object">
+        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Response" name="ErrorResponseException"/>
+      </throws>
+    </docblock>
+    <return type="object" nullable="false">
+      <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
+    </return>
+    <parameter name="forward" byreference="false" type="object">
+      <type full="bTd\SNP\Protocol\Message\Request\ForwardRequest" namespace="bTd\SNP\Protocol\Message\Request" name="ForwardRequest"/>
+    </parameter>
+  </method>
+  <destructor name="__destruct" start="194" end="200" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Destructor - close opened socket"/>
+    </docblock>
+  </destructor>
+</class>

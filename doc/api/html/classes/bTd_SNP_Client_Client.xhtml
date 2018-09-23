@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - bTd\SNP\Client\Client</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#bTd_SNP_Client">bTd\SNP\Client</a>
+          </li>
+          <li class="separator">Client</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/bTd/SNP/Client/Client.php.xhtml#line26">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>bTd\SNP\Client\</small>Client</h1>
+        <h4>Class Client</h4>
+        <p/>
+        <ul/>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class Client
+            {<br/><ul class="none"><li>// members</li><li>private integer <a href="#members">$port</a> =
+                        9731;
+                    </li><li>private <span title="bTd\SNP\Client\null|resource">null|resource</span> <a href="#members">$socket</a> =
+                        NULL;
+                    </li><li>private  <a href="#members">$host</a>;
+                    </li><li>private <span title="bTd\SNP\Client\null|string">null|string</span> <a href="#members">$password</a> =
+                        NULL;
+                    </li><li>private  <a href="#members">$appID</a> =
+                        NULL;
+                    </li></ul><ul class="none"><li>// methods</li><li>public void <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/__construct.xhtml">__construct</a>()
+                    </li><li>private void <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/error.xhtml">error</a>()
+                    </li><li>private void <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/connect.xhtml">connect</a>()
+                    </li><li>private void <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/send.xhtml">send</a>()
+                    </li><li>private string <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/get.xhtml">get</a>()
+                    </li><li>protected <span title="Response">Response</span> <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/sendRequest.xhtml">sendRequest</a>()
+                    </li><li>public <span title="Response">Response</span> <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/notify.xhtml">notify</a>()
+                    </li><li>public <span title="Response">Response</span> <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/register.xhtml">register</a>()
+                    </li><li>public <span title="Response">Response</span> <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/forward.xhtml">forward</a>()
+                    </li><li>public void <a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/__destruct.xhtml">__destruct</a>()
+                    </li></ul>
+
+            }<br/></div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>private</h4>
+          <ul class="members">
+            <li id="appID"><strong>$appID</strong>
+                —
+                null</li>
+            <li id="host"><strong>$host</strong>
+                —
+                string</li>
+            <li id="password"><strong>$password</strong>
+                —
+                <a title="bTd\SNP\Client\null|string" href="../classes/bTd_SNP_Client_null|string.xhtml">bTd\SNP\Client\null|string</a></li>
+            <li id="port"><strong>$port</strong>
+                —
+                int</li>
+            <li id="socket"><strong>$socket</strong>
+                —
+                <a title="bTd\SNP\Client\null|resource" href="../classes/bTd_SNP_Client_null|resource.xhtml">bTd\SNP\Client\null|resource</a></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h4>private</h4>
+          <ul>
+            <li id="connect"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/connect.xhtml">connect()</a>
+                — Connect socket  to server.</li>
+            <li id="error"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/error.xhtml">error()</a>
+                — Compose RuntimeException from socket error and throws it.</li>
+            <li id="get"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/get.xhtml">get()</a>
+                — Read raw data from opened socket.</li>
+            <li id="send"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/send.xhtml">send()</a>
+                — Send raw data to socket.</li>
+          </ul>
+          <h4>protected</h4>
+          <ul>
+            <li id="sendRequest"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/sendRequest.xhtml">sendRequest()</a>
+                — Send SNP Request message to server.</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="__construct"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/__construct.xhtml">__construct()</a>
+                — Client constructor.</li>
+            <li id="__destruct"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/__destruct.xhtml">__destruct()</a>
+                — Destructor - close opened socket</li>
+            <li id="forward"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/forward.xhtml">forward()</a>
+                — Send SNP Forward Request message to server.</li>
+            <li id="notify"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/notify.xhtml">notify()</a>
+                — Send SNP Notify Request message to server.</li>
+            <li id="register"><a title="bTd\SNP\Client\Client" href="../classes/bTd_SNP_Client_Client/register.xhtml">register()</a>
+                — Send SNP Register Request message to server.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.11.2 - Copyright (C) 2010 - 2018 by Arne Blankerts and Contributors</span>
+    </footer>
+  </body>
+</html>

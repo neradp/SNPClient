@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message" namespace="bTd\SNP\Protocol" name="Message" abstract="false" final="false" start="22" end="147">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol" file="Message.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message.php" size="2855" time="2018-09-22T20:14:34+02:00" unixtime="1537640074" sha1="55e43c86353d7edfe0949080cc072dc6013ffb5b" relative="bTd/SNP/Protocol/Message.php"/>
+  <docblock>
+    <description compact="Class Message"/>
+    <package value="bTd\SNP\Protocol"/>
+    <see value="https://github.com/fullphat/snarl/wiki/SNP-3.1#message-structure"/>
+  </docblock>
+  <member name="header" visibility="private" static="false" line="28">
+    <docblock>
+      <description/>
+      <var description="Contain the header part of the message." type="string"/>
+    </docblock>
+  </member>
+  <member name="content" default="" type="array" visibility="private" static="false" line="32">
+    <docblock>
+      <description/>
+      <var description="Contain the content part of the message." type="array"/>
+    </docblock>
+  </member>
+  <member name="terminator" default="" type="{unknown}" constant="Protocol::TERMINATOR" visibility="private" static="false" line="36">
+    <docblock>
+      <description/>
+      <var description="Contain the terminator part of the message." type="string"/>
+    </docblock>
+  </member>
+  <method name="getContent" start="44" end="48" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the whole  content part of the message."/>
+      <return description="The whole content part of message." type="array"/>
+    </docblock>
+    <return type="array" nullable="false"/>
+  </method>
+  <method name="setContent" start="56" end="60" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Set the whole content part of the message."/>
+      <param description="The whole content part of message." type="array" variable="$conntent"/>
+    </docblock>
+    <return type="void" nullable="false"/>
+    <parameter name="content" byreference="false" type="array"/>
+  </method>
+  <method name="addToContent" start="69" end="73" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Add a named value to the content part of message."/>
+      <param description="Name." type="string" variable="$param"/>
+      <param description="Value." type="string" variable="$value"/>
+    </docblock>
+    <return type="void" nullable="false"/>
+    <parameter name="param" byreference="false" type="string"/>
+    <parameter name="value" byreference="false" type="string"/>
+  </method>
+  <method name="getFromContent" start="82" end="86" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get a value from the content part of message by its name."/>
+      <param description="Name." type="string" variable="$param"/>
+      <return description="Value." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+    <parameter name="param" byreference="false" type="string"/>
+  </method>
+  <method name="__toString" start="94" end="105" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Compose message to raw format."/>
+      <return description="The raw format of message." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+  <method name="getHeader" start="113" end="117" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the header part of the message."/>
+      <return description="The message header." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+  <method name="setHeader" start="125" end="129" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Set the header part of the message."/>
+      <param description="The message header." type="string" variable="$header"/>
+    </docblock>
+    <return type="void" nullable="false"/>
+    <parameter name="header" byreference="false" type="string"/>
+  </method>
+  <method name="getTerminator" start="137" end="141" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Get the terminator part of the message."/>
+      <return description="The terminator part of message." type="string"/>
+    </docblock>
+    <return type="string" nullable="false"/>
+  </method>
+<extenders><extender full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/></extenders></class>

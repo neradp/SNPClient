@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpcs version="3.3.1">
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Client\Client.php" errors="59" warnings="0" fixable="30">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="24" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="28" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="31" column="21" source="Generic.Formatting.MultipleStatementAlignment.Incorrect" severity="5" fixable="1">Equals sign not aligned correctly; expected 1 space but found 3 spaces</error>
+    <error line="32" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="36" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="40" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="44" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="47" column="22" source="Generic.Formatting.MultipleStatementAlignment.Incorrect" severity="5" fixable="1">Equals sign not aligned correctly; expected 1 space but found 3 spaces</error>
+    <error line="52" column="8" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="52" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 6 spaces after parameter type; 1 found</error>
+    <error line="52" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 1 found</error>
+    <error line="52" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="53" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 9 spaces after parameter type; 1 found</error>
+    <error line="53" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 1 found</error>
+    <error line="53" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="54" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="55" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="62" column="9" source="Squiz.Commenting.InlineComment.NoSpaceBefore" severity="5" fixable="1">No space found before comment text; expected &quot;// create socket&quot; but found &quot;//create socket&quot;</error>
+    <error line="62" column="9" source="Squiz.Commenting.InlineComment.NotCapital" severity="5" fixable="0">Inline comments must start with a capital letter</error>
+    <error line="62" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
+    <error line="63" column="25" source="Generic.Formatting.MultipleStatementAlignment.Incorrect" severity="5" fixable="1">Equals sign not aligned correctly; expected 1 space but found 3 spaces</error>
+    <error line="73" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="77" column="14" source="Generic.Formatting.MultipleStatementAlignment.NotSame" severity="5" fixable="1">Equals sign not aligned with surrounding assignments; expected 2 spaces but found 1 space</error>
+    <error line="79" column="5" source="Squiz.Commenting.ClosingDeclarationComment.Missing" severity="5" fixable="1">Expected //end error()</error>
+    <error line="79" column="5" source="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose" severity="5" fixable="1">Expected 1 blank line before closing function brace; 0 found</error>
+    <error line="86" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="98" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="99" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="100" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="125" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="125" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="126" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="127" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="131" column="9" source="Squiz.Commenting.InlineComment.NoSpaceBefore" severity="5" fixable="1">No space found before comment text; expected &quot;// set password authentication for request&quot; but found &quot;//set password authentication for request&quot;</error>
+    <error line="131" column="9" source="Squiz.Commenting.InlineComment.NotCapital" severity="5" fixable="0">Inline comments must start with a capital letter</error>
+    <error line="131" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
+    <error line="146" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="146" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="147" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="148" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="159" column="5" source="Squiz.Commenting.ClosingDeclarationComment.Incorrect" severity="5" fixable="1">Expected //end notify()</error>
+    <error line="159" column="5" source="Squiz.WhiteSpace.FunctionSpacing.After" severity="5" fixable="1">Expected 2 blank lines after function; 1 found</error>
+    <error line="164" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="164" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="165" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="166" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="171" column="23" source="Generic.Formatting.MultipleStatementAlignment.NotSame" severity="5" fixable="1">Equals sign not aligned with surrounding assignments; expected 4 spaces but found 5 spaces</error>
+    <error line="175" column="5" source="Squiz.Commenting.ClosingDeclarationComment.Incorrect" severity="5" fixable="1">Expected //end register()</error>
+    <error line="175" column="5" source="Squiz.WhiteSpace.FunctionSpacing.After" severity="5" fixable="1">Expected 2 blank lines after function; 1 found</error>
+    <error line="180" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="180" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="181" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="182" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="189" column="5" source="Squiz.Commenting.ClosingDeclarationComment.Incorrect" severity="5" fixable="1">Expected //end forward()</error>
+    <error line="189" column="5" source="Squiz.WhiteSpace.FunctionSpacing.After" severity="5" fixable="1">Expected 2 blank lines after function; 1 found</error>
+    <error line="196" column="9" source="Squiz.Operators.ComparisonOperatorUsage.ImplicitTrue" severity="5" fixable="0">Implicit true comparisons prohibited; use === TRUE instead</error>
+    <error line="200" column="5" source="Squiz.WhiteSpace.FunctionSpacing.AfterLast" severity="5" fixable="1">Expected 2 blank lines after function; 0 found</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message\Request\ForwardRequest.php" errors="15" warnings="0" fixable="13">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="21" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="22" column="9" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 4 spaces but found 1</error>
+    <error line="23" column="8" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 5 spaces but found 1</error>
+    <error line="31" column="8" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="31" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 3 spaces after parameter name; 1 found</error>
+    <error line="32" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 4 spaces after parameter name; 2 found</error>
+    <error line="33" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 3 found</error>
+    <error line="34" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 3 found</error>
+    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
+    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 2 spaces after parameter name; 3 found</error>
+    <error line="36" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
+    <error line="36" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
+    <error line="37" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message\Request\NotifyRequest.php" errors="12" warnings="0" fixable="10">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="21" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="22" column="9" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 4 spaces but found 1</error>
+    <error line="23" column="8" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 5 spaces but found 1</error>
+    <error line="31" column="8" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="31" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 4 spaces after parameter name; 1 found</error>
+    <error line="32" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 2 found</error>
+    <error line="33" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 2 found</error>
+    <error line="34" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
+    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
+    <error line="36" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message\Request\RegisterRequest.php" errors="16" warnings="0" fixable="5">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="20" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="21" column="3" source="Squiz.Commenting.DocCommentAlignment.SpaceBeforeStar" severity="5" fixable="1">Expected 1 space(s) before asterisk; 2 found</error>
+    <error line="21" column="9" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 5 spaces but found 1</error>
+    <error line="27" column="5" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$appID&quot; missing</error>
+    <error line="27" column="5" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$keepAlive&quot; missing</error>
+    <error line="29" column="8" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="29" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="29" column="8" source="PEAR.Commenting.FunctionComment.ParamNameNoMatch" severity="5" fixable="0">Doc comment for parameter $appSig does not match actual variable name $appID</error>
+    <error line="30" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="31" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="32" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="32" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
+    <error line="32" column="8" source="PEAR.Commenting.FunctionComment.ParamNameNoMatch" severity="5" fixable="0">Doc comment for parameter $keep_alive does not match actual variable name $keepAlive</error>
+    <error line="47" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message\Request.php" errors="14" warnings="0" fixable="0">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="30" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="52" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="53" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="69" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="70" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="71" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="72" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="76" column="9" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_basis&quot; is not in valid camel caps format</error>
+    <error line="77" column="49" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_basis&quot; is not in valid camel caps format</error>
+    <error line="78" column="9" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_hash&quot; is not in valid camel caps format</error>
+    <error line="79" column="81" source="Squiz.NamingConventions.ValidVariableName.StringNotCamelCaps" severity="5" fixable="0">Variable &quot;key_hash&quot; is not in valid camel caps format</error>
+    <error line="88" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message\Response\ErrorResponseException.php" errors="12" warnings="0" fixable="4">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="20" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="24" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="33" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="33" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 9 spaces after parameter type; 1 found</error>
+    <error line="34" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="34" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 12 spaces after parameter type; 1 found</error>
+    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 9 spaces after parameter type; 1 found</error>
+    <error line="36" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="46" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message\Response.php" errors="16" warnings="0" fixable="0">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="33" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="41" column="28" source="Generic.PHP.ForbiddenFunctions.FoundWithAlternative" severity="5" fixable="0">The use of function sizeof() is forbidden; use count() instead</error>
+    <error line="46" column="9" source="Squiz.Commenting.InlineComment.NotCapital" severity="5" fixable="0">Inline comments must start with a capital letter</error>
+    <error line="46" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
+    <error line="47" column="13" source="Squiz.Operators.ComparisonOperatorUsage.NotAllowed" severity="5" fixable="0">Operator ! prohibited; use === FALSE instead</error>
+    <error line="54" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="59" column="9" source="Squiz.Commenting.InlineComment.NotCapital" severity="5" fixable="0">Inline comments must start with a capital letter</error>
+    <error line="59" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
+    <error line="60" column="9" source="Squiz.Operators.ComparisonOperatorUsage.ImplicitTrue" severity="5" fixable="0">Implicit true comparisons prohibited; use === TRUE instead</error>
+    <error line="64" column="9" source="Squiz.Commenting.InlineComment.NotCapital" severity="5" fixable="0">Inline comments must start with a capital letter</error>
+    <error line="64" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
+    <error line="70" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="72" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="80" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Message.php" errors="13" warnings="0" fixable="0">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="25" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="29" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="33" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="51" column="5" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$content&quot; missing</error>
+    <error line="54" column="8" source="PEAR.Commenting.FunctionComment.ParamNameNoMatch" severity="5" fixable="0">Doc comment for parameter $conntent does not match actual variable name $content</error>
+    <error line="55" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="68" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="80" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="84" column="39" source="Squiz.Formatting.OperatorBracket.MissingBrackets" severity="5" fixable="0">Operation must be bracketed</error>
+    <error line="124" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="148" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+</file>
+xml version="1.0" encoding="UTF-8"?>
+<file name="src\bTd\SNP\Protocol\Protocol.php" errors="11" warnings="0" fixable="0">
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
+    <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
+    <error line="23" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="28" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="33" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="38" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="43" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="48" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="53" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="58" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="63" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+</file>
+</phpcs>
+
