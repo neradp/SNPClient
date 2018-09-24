@@ -3,7 +3,7 @@
     "description": "SNP Snarl client implementation for sending messages",
      "keywords": ["SNP","SNP3.1","SNPClient","Snarl"],
     "type": "library",
-    "license": "GLGPLv3",
+    "license": "MIT",
     "authors": [
         {
             "name": "Peter Nerád",
