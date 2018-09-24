@@ -27,7 +27,8 @@
     ],
     "cs-check": "phpcs --report=xml --report-file=build/phpcs.xml",
     "cs-fix": "phpcbf",
-    "test": "phpunit --colors=always",
+    "test": "phpunit",
+    "test-nosrv": "phpunit --exclude-group=RequireServer",
     "doc": "phpdox",
     "md": "phpmd src xml codesize --reportfile build/phpmd.xml",
     "loc": "phploc --count-tests --log-xml=build/phploc.xml src tests"

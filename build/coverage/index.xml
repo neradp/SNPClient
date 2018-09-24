@@ -1,11 +1,16 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Sun Sep 23 9:25:24 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+  <build time="Mon Sep 24 8:57:38 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
     <runtime name="PHP" version="7.2.9" url="https://secure.php.net/"/>
     <driver name="xdebug" version="2.6.1"/>
   </build>
   <project source="C:\Users\peter\Projects\SNPClient\src\bTd\SNP">
     <tests>
+      <test name="bTd\SNP\Client\ClientTest::testBadConnectionToServer" size="unknown" result="0" status="PASSED"/>
+      <test name="bTd\SNP\Client\ClientTest::testConnectionToServer" size="unknown" result="0" status="PASSED"/>
+      <test name="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse" size="unknown" result="0" status="PASSED"/>
+      <test name="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse" size="unknown" result="0" status="PASSED"/>
+      <test name="bTd\SNP\Client\ClientTest::testClientSendForwardResponse" size="unknown" result="0" status="PASSED"/>
       <test name="ErrorResponseExceptionTest::testException" size="unknown" result="0" status="PASSED"/>
       <test name="ForwardRequestTest::testForwardRequest" size="unknown" result="0" status="PASSED"/>
       <test name="MessageTest::testSetHeader" size="unknown" result="0" status="PASSED"/>
@@ -29,24 +34,24 @@
     </tests>
     <directory name="/">
       <totals>
-        <lines total="824" comments="453" code="371" executable="102" executed="71" percent="69.61"/>
-        <methods count="32" tested="22" percent="68.75"/>
+        <lines total="824" comments="453" code="371" executable="102" executed="99" percent="97.06"/>
+        <methods count="32" tested="31" percent="96.88"/>
         <functions count="0" tested="0" percent="0"/>
         <classes count="8" tested="7" percent="87.50"/>
         <traits count="0" tested="0" percent="0"/>
       </totals>
       <directory name="Client">
         <totals>
-          <lines total="201" comments="111" code="90" executable="31" executed="0" percent="0.00"/>
-          <methods count="10" tested="0" percent="0.00"/>
+          <lines total="201" comments="111" code="90" executable="31" executed="28" percent="90.32"/>
+          <methods count="10" tested="9" percent="90.00"/>
           <functions count="0" tested="0" percent="0"/>
           <classes count="1" tested="0" percent="0.00"/>
           <traits count="0" tested="0" percent="0"/>
         </totals>
         <file name="Client.php" href="Client/Client.php.xml">
           <totals>
-            <lines total="201" comments="111" code="90" executable="31" executed="0" percent="0.00"/>
-            <methods count="10" tested="0" percent="0.00"/>
+            <lines total="201" comments="111" code="90" executable="31" executed="28" percent="90.32"/>
+            <methods count="10" tested="9" percent="90.00"/>
             <functions count="0" tested="0" percent="0"/>
             <classes count="1" tested="0" percent="0.00"/>
             <traits count="0" tested="0" percent="0"/>

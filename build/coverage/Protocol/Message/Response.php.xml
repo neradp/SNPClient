@@ -17,16 +17,25 @@
     </class>
     <coverage>
       <line nr="38">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
         <covered by="ResponseTest::testBrokenResponse"/>
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="39">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
         <covered by="ResponseTest::testBrokenResponse"/>
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="41">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
         <covered by="ResponseTest::testBrokenResponse"/>
         <covered by="ResponseTest::testFailedResponse"/>
@@ -38,6 +47,9 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="47">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
         <covered by="ResponseTest::testBrokenResponse"/>
         <covered by="ResponseTest::testFailedResponse"/>
@@ -47,14 +59,23 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="51">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
       </line>
       <line nr="60">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
         <covered by="ResponseTest::testBrokenResponse"/>
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="61">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
         <covered by="ResponseTest::testSuccessResponse"/>
       </line>
       <line nr="65">

@@ -16,24 +16,31 @@
     </class>
     <coverage>
       <line nr="37">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
       <line nr="39">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
       <line nr="40">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
       <line nr="41">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
       <line nr="42">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
       <line nr="44">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
       <line nr="52">
+        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
       </line>
     </coverage>

@@ -54,7 +54,7 @@ class Client
      * @param string|null $password Password to verify.
      * @throws \RuntimeException
      */
-    public function __construct(string $host, int $port=9731, string $password=null)
+    public function __construct(string $host, int  $port=9731, string $password=null)
     {
         $this->host     = $host;
         $this->port     = $port;
@@ -124,7 +124,7 @@ class Client
      *
      * @param Request $request
      * @return Response
-     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException|\Exception
+     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException|\Exception
      */
     protected function sendRequest(Request $request): Response
     {
@@ -145,7 +145,7 @@ class Client
      *
      * @param NotifyRequest $notification
      * @return Response
-     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException
+     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
     public function notify(NotifyRequest $notification): Response
     {
@@ -163,7 +163,7 @@ class Client
      *
      * @param RegisterRequest $application
      * @return Response
-     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException
+     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
     public function register(RegisterRequest $application): Response
     {
@@ -179,7 +179,7 @@ class Client
      *
      * @param ForwardRequest $forward
      * @return Response
-     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException
+     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
     public function forward(ForwardRequest $forward): Response
     {
