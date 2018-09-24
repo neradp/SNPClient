@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Client\Client" namespace="bTd\SNP\Client" name="Client" abstract="false" final="false" start="26" end="201">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4660" time="2018-09-22T17:30:55+02:00" unixtime="1537630255" sha1="5272ad56e4f67091c37e604fb3f87d15ee45e550" relative="bTd/SNP/Client/Client.php"/>
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4693" time="2018-09-24T11:05:22+02:00" unixtime="1537779922" sha1="a585a62e22068d960dc18a189a6ecdbe62922ad0" relative="bTd/SNP/Client/Client.php"/>
   <docblock>
     <description compact="Class Client"/>
     <package value="bTd\SNP\Client"/>
@@ -101,7 +101,7 @@
         <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
       </return>
       <throws type="object">
-        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException|\Exception" namespace="\bTd\SNP\Protocol\Response\ErrorResponseException|" name="Exception"/>
+        <type full="\bTd\SNP\Protocol\Message\Response\ErrorResponseException|\Exception" namespace="\bTd\SNP\Protocol\Message\Response\ErrorResponseException|" name="Exception"/>
       </throws>
     </docblock>
     <return type="object" nullable="false">
@@ -124,7 +124,7 @@
         <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
       </return>
       <throws type="object">
-        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Response" name="ErrorResponseException"/>
+        <type full="\bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/>
       </throws>
     </docblock>
     <return type="object" nullable="false">
@@ -144,7 +144,7 @@
         <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
       </return>
       <throws type="object">
-        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Response" name="ErrorResponseException"/>
+        <type full="\bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/>
       </throws>
     </docblock>
     <return type="object" nullable="false">
@@ -164,7 +164,7 @@
         <type full="bTd\SNP\Protocol\Message\Response" namespace="bTd\SNP\Protocol\Message" name="Response"/>
       </return>
       <throws type="object">
-        <type full="\bTd\SNP\Protocol\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Response" name="ErrorResponseException"/>
+        <type full="\bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="\bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/>
       </throws>
     </docblock>
     <return type="object" nullable="false">

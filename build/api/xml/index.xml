@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index xmlns="http://xml.phpdox.net/src" basedir="C:/Users/peter/Projects/SNPClient/src">
   <namespace name="bTd\SNP\Client">
-    <class name="Client" src="bTd/SNP/Client/Client.php" description="Class Client" xml="classes/bTd_SNP_Client_Client.xml"/>
-  </namespace>
+    
+  <class name="Client" src="bTd/SNP/Client/Client.php" description="Class Client" xml="classes/bTd_SNP_Client_Client.xml"/></namespace>
   <namespace name="bTd\SNP\Protocol\Message\Request">
     <class name="ForwardRequest" src="bTd/SNP/Protocol/Message/Request/ForwardRequest.php" description="Class ForwardRequest" xml="classes/bTd_SNP_Protocol_Message_Request_ForwardRequest.xml"/>
     

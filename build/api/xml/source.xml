@@ -4,7 +4,7 @@
     <dir name="bTd">
       <dir name="SNP">
         <dir name="Client">
-          <file name="Client.php" size="4660" time="2018-09-22T17:30:55+02:00" unixtime="1537630255" sha1="5272ad56e4f67091c37e604fb3f87d15ee45e550" xml="tokens/bTd/SNP/Client/Client.php.xml"/>
+          <file name="Client.php" size="4693" time="2018-09-24T11:05:22+02:00" unixtime="1537779922" sha1="a585a62e22068d960dc18a189a6ecdbe62922ad0" xml="tokens/bTd/SNP/Client/Client.php.xml"/>
         </dir>
         <dir name="Protocol">
           <dir name="Message">

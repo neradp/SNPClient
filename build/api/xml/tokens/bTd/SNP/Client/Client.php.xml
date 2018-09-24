@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4660" time="2018-09-22T17:30:55+02:00" unixtime="1537630255" sha1="5272ad56e4f67091c37e604fb3f87d15ee45e550" relative="bTd/SNP/Client/Client.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4693" time="2018-09-24T11:05:22+02:00" unixtime="1537779922" sha1="a585a62e22068d960dc18a189a6ecdbe62922ad0" relative="bTd/SNP/Client/Client.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -281,7 +281,7 @@
     <token name="T_PHPDOX_COMMA">,</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">int</token>
-    <token name="T_WHITESPACE"> </token>
+    <token name="T_WHITESPACE">  </token>
     <token name="T_VARIABLE">$port</token>
     <token name="T_PHPDOX_EQUAL">=</token>
     <token name="T_LNUMBER">9731</token>
@@ -671,7 +671,7 @@
     <token name="T_DOC_COMMENT">     * @return Response</token>
   </line>
   <line no="127">
-    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException|\Exception</token>
+    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException|\Exception</token>
   </line>
   <line no="128">
     <token name="T_DOC_COMMENT">     */</token>
@@ -795,7 +795,7 @@
     <token name="T_DOC_COMMENT">     * @return Response</token>
   </line>
   <line no="148">
-    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException</token>
+    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException</token>
   </line>
   <line no="149">
     <token name="T_DOC_COMMENT">     */</token>
@@ -898,7 +898,7 @@
     <token name="T_DOC_COMMENT">     * @return Response</token>
   </line>
   <line no="166">
-    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException</token>
+    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException</token>
   </line>
   <line no="167">
     <token name="T_DOC_COMMENT">     */</token>
@@ -984,7 +984,7 @@
     <token name="T_DOC_COMMENT">     * @return Response</token>
   </line>
   <line no="182">
-    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException</token>
+    <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException</token>
   </line>
   <line no="183">
     <token name="T_DOC_COMMENT">     */</token>
