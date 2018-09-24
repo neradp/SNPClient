@@ -15,39 +15,39 @@
     </class>
     <coverage>
       <line nr="42">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="44">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="45">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="46">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="47">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="48">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="49">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="50">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
       <line nr="52">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
       </line>
     </coverage>

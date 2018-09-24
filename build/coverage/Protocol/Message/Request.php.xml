@@ -19,8 +19,8 @@
     </class>
     <coverage>
       <line nr="41">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
         <covered by="RequestTest::testSetInvalidRequestType"/>
         <covered by="RequestTest::testSetRequestType"/>
@@ -28,8 +28,8 @@
         <covered by="RequestTest::testSetApplicationIdentification"/>
       </line>
       <line nr="42">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
         <covered by="RequestTest::testSetRequestType"/>
         <covered by="RequestTest::testAuthenticate"/>
@@ -42,9 +42,9 @@
         <covered by="RequestTest::testGetRequestType"/>
       </line>
       <line nr="64">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
@@ -57,9 +57,9 @@
         <covered by="RequestTest::testSetInvalidRequestType"/>
       </line>
       <line nr="68">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
@@ -68,9 +68,9 @@
         <covered by="RequestTest::testSetApplicationIdentification"/>
       </line>
       <line nr="69">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
@@ -79,9 +79,9 @@
         <covered by="RequestTest::testSetApplicationIdentification"/>
       </line>
       <line nr="71">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
         <covered by="RegisterRequestTest::testRegisterRequest"/>
@@ -90,47 +90,47 @@
         <covered by="RequestTest::testSetApplicationIdentification"/>
       </line>
       <line nr="83">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="RequestTest::testAuthenticate"/>
       </line>
       <line nr="84">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="RequestTest::testAuthenticate"/>
       </line>
       <line nr="85">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="RequestTest::testAuthenticate"/>
       </line>
       <line nr="86">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="RequestTest::testAuthenticate"/>
       </line>
       <line nr="87">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="RequestTest::testAuthenticate"/>
       </line>
       <line nr="89">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="RequestTest::testAuthenticate"/>
       </line>
       <line nr="99">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RequestTest::testSetApplicationIdentification"/>
       </line>
       <line nr="101">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="RequestTest::testSetApplicationIdentification"/>
       </line>
     </coverage>

@@ -24,113 +24,113 @@
     </class>
     <coverage>
       <line nr="59">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="60">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="61">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="63">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="64">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="66">
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="76">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
       </line>
       <line nr="77">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
       </line>
       <line nr="78">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
       </line>
       <line nr="90">
-        <covered by="bTd\SNP\Client\ClientTest::testBadConnectionToServer"/>
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testBadConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="92">
-        <covered by="bTd\SNP\Client\ClientTest::testConnectionToServer"/>
+        <covered by="ClientTest::testConnectionToServer"/>
       </line>
       <line nr="104">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="106">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="117">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="132">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="133">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="136">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="137">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="138">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="152">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="153">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="156">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="157">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="171">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="172">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="173">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
       </line>
       <line nr="186">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
       <line nr="187">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
       </line>
     </coverage>
     <source>
@@ -804,7 +804,7 @@
         <token name="T_DOC_COMMENT">     * @return Response</token>
       </line>
       <line no="127">
-        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException|\Exception</token>
+        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException|\Exception</token>
       </line>
       <line no="128">
         <token name="T_DOC_COMMENT">     */</token>
@@ -928,7 +928,7 @@
         <token name="T_DOC_COMMENT">     * @return Response</token>
       </line>
       <line no="148">
-        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException</token>
+        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException</token>
       </line>
       <line no="149">
         <token name="T_DOC_COMMENT">     */</token>
@@ -1031,7 +1031,7 @@
         <token name="T_DOC_COMMENT">     * @return Response</token>
       </line>
       <line no="166">
-        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException</token>
+        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException</token>
       </line>
       <line no="167">
         <token name="T_DOC_COMMENT">     */</token>
@@ -1117,7 +1117,7 @@
         <token name="T_DOC_COMMENT">     * @return Response</token>
       </line>
       <line no="182">
-        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Response\ErrorResponseException</token>
+        <token name="T_DOC_COMMENT">     * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException</token>
       </line>
       <line no="183">
         <token name="T_DOC_COMMENT">     */</token>

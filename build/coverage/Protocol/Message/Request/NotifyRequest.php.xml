@@ -15,43 +15,43 @@
     </class>
     <coverage>
       <line nr="41">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="43">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="44">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="45">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="46">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="47">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="48">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
       <line nr="50">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
       </line>
     </coverage>

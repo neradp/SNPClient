@@ -91,4 +91,4 @@
       <return type="void"/>
     </docblock>
   </method>
-<extenders><extender full="bTd\SNP\Protocol\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Response" name="ErrorResponseException"/><extender full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/></extenders></class>
+<extenders><extender full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException"/></extenders></class>

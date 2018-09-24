@@ -32,9 +32,9 @@
         <covered by="MessageTest::testSetContent"/>
       </line>
       <line nr="71">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="MessageTest::testAddToContent"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
@@ -43,9 +43,9 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="73">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="MessageTest::testAddToContent"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
@@ -54,7 +54,7 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="84">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="MessageTest::testGetFromContent"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
@@ -64,39 +64,39 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="96">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testRawMessageFormat"/>
       </line>
       <line nr="98">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testRawMessageFormat"/>
       </line>
       <line nr="99">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testRawMessageFormat"/>
       </line>
       <line nr="102">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testRawMessageFormat"/>
       </line>
       <line nr="103">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testRawMessageFormat"/>
       </line>
       <line nr="115">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testGetHeader"/>
         <covered by="MessageTest::testRawMessageFormat"/>
         <covered by="RequestTest::testSetRequestType"/>
@@ -106,9 +106,9 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="127">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="MessageTest::testSetHeader"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
@@ -121,9 +121,9 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="129">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="ForwardRequestTest::testForwardRequest"/>
         <covered by="MessageTest::testSetHeader"/>
         <covered by="NotifyRequestTest::testNotifyRequest"/>
@@ -136,9 +136,9 @@
         <covered by="ResponseTest::testFailedResponse"/>
       </line>
       <line nr="139">
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse"/>
-        <covered by="bTd\SNP\Client\ClientTest::testClientSendForwardResponse"/>
+        <covered by="ClientTest::testClientSendNotifyResponse"/>
+        <covered by="ClientTest::testClientSendRegisterAndNotifyResponse"/>
+        <covered by="ClientTest::testClientSendForwardResponse"/>
         <covered by="MessageTest::testGetTerminator"/>
         <covered by="MessageTest::testRawMessageFormat"/>
       </line>

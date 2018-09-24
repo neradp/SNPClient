@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
-  <build time="Mon Sep 24 8:57:38 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+  <build time="Mon Sep 24 10:15:59 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
     <runtime name="PHP" version="7.2.9" url="https://secure.php.net/"/>
     <driver name="xdebug" version="2.6.1"/>
   </build>
   <project source="C:\Users\peter\Projects\SNPClient\src\bTd\SNP">
     <tests>
-      <test name="bTd\SNP\Client\ClientTest::testBadConnectionToServer" size="unknown" result="0" status="PASSED"/>
-      <test name="bTd\SNP\Client\ClientTest::testConnectionToServer" size="unknown" result="0" status="PASSED"/>
-      <test name="bTd\SNP\Client\ClientTest::testClientSendNotifyResponse" size="unknown" result="0" status="PASSED"/>
-      <test name="bTd\SNP\Client\ClientTest::testClientSendRegisterAndNotifyResponse" size="unknown" result="0" status="PASSED"/>
-      <test name="bTd\SNP\Client\ClientTest::testClientSendForwardResponse" size="unknown" result="0" status="PASSED"/>
+      <test name="ClientTest::testBadConnectionToServer" size="unknown" result="0" status="PASSED"/>
+      <test name="ClientTest::testConnectionToServer" size="unknown" result="0" status="PASSED"/>
+      <test name="ClientTest::testClientSendNotifyResponse" size="unknown" result="0" status="PASSED"/>
+      <test name="ClientTest::testClientSendRegisterAndNotifyResponse" size="unknown" result="0" status="PASSED"/>
+      <test name="ClientTest::testClientSendForwardResponse" size="unknown" result="0" status="PASSED"/>
       <test name="ErrorResponseExceptionTest::testException" size="unknown" result="0" status="PASSED"/>
       <test name="ForwardRequestTest::testForwardRequest" size="unknown" result="0" status="PASSED"/>
       <test name="MessageTest::testSetHeader" size="unknown" result="0" status="PASSED"/>
