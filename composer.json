@@ -16,8 +16,8 @@
         "ext-sockets": "*"
     },
   "autoload": {
-    "psr-0": {
-      "bTd\\": "src/"
+    "psr-4": {
+      "bTd\\": "src/bTd"
     }
   },
   "scripts": {
