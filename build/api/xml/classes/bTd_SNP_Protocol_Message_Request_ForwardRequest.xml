@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request\ForwardRequest" namespace="bTd\SNP\Protocol\Message\Request" name="ForwardRequest" abstract="false" final="false" start="25" end="55">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="ForwardRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/ForwardRequest.php" size="1494" time="2018-09-22T17:29:37+02:00" unixtime="1537630177" sha1="0d66de30cf704aeb01459c16826e836aa9a46923" relative="bTd/SNP/Protocol/Message/Request/ForwardRequest.php"/>
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="ForwardRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/ForwardRequest.php" size="1498" time="2018-09-24T20:39:54+02:00" unixtime="1537814394" sha1="7269001b6376713b2e4504ddf672182e8970b403" relative="bTd/SNP/Protocol/Message/Request/ForwardRequest.php"/>
   <docblock>
     <description compact="Class ForwardRequest"/>
     <package value="bTd\SNP\Protocol\Message\Request"/>
@@ -15,7 +15,7 @@
       <param description="Notification title." type="string" variable="$title"/>
       <param description="Notification text." type="string" variable="$text"/>
       <param description="Notification icon." type="string" variable="$icon"/>
-      <param description="Notification timeout." type="int" variable="$timeout"/>
+      <param description="Notification duration." type="int" variable="$duration"/>
       <param description="Notification priority." type="int" variable="$priority"/>
       <param description="Notification callback." type="string" variable="$callback"/>
     </docblock>
@@ -23,8 +23,8 @@
     <parameter name="title" byreference="false" type="string"/>
     <parameter name="text" byreference="false" type="string"/>
     <parameter name="icon" byreference="false" type="string"/>
-    <parameter name="timeout" byreference="false" type="integer" default="0"/>
-    <parameter name="priority" byreference="false" type="integer" default="1"/>
+    <parameter name="duration" byreference="false" type="integer" default="3"/>
+    <parameter name="priority" byreference="false" type="integer" default="0"/>
     <parameter name="callback" byreference="false" type="string" default="&quot;&quot;"/>
   </constructor>
   <parent full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request">

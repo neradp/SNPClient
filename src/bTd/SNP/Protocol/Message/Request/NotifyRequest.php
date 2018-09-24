@@ -31,11 +31,11 @@ class NotifyRequest extends Request
      * @param string $title Notification title.
      * @param string $text  Notification text.
      * @param string $icon  Notification icon.
-     * @param int $timeout  Notification timeout.
+     * @param int $duration  Notification duration.
      * @param int $priority Notification priority.
      * @param string $callback  Notification callbak.
      */
-    public function __construct(string $title, string $text, string $icon, int $timeout=0, int $priority=-1, string $callback="")
+    public function __construct(string $title, string $text, string $icon, int $duration=3, int $priority=0, string $callback="")
     {
 
         parent::__construct(Protocol::REQUEST_TYPE_NOTIFY);
@@ -43,7 +43,7 @@ class NotifyRequest extends Request
         $this->addToContent("title", $title);
         $this->addToContent("text", $text);
         $this->addToContent("icon", $icon);
-        $this->addToContent("timeout", $timeout);
+        $this->addToContent("duration", $duration);
         $this->addToContent("priority", $priority);
         $this->addToContent("callback", $callback);
 

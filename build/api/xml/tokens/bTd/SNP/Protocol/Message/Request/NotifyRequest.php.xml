@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="NotifyRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/NotifyRequest.php" size="1350" time="2018-09-22T22:08:30+02:00" unixtime="1537646910" sha1="0d4e4dbcec39468e9d8270500a9c20177cd71190" relative="bTd/SNP/Protocol/Message/Request/NotifyRequest.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="NotifyRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/NotifyRequest.php" size="1354" time="2018-09-24T20:39:36+02:00" unixtime="1537814376" sha1="8b4e9afad02c9c471797ae3bdfffcb7acabc0ec3" relative="bTd/SNP/Protocol/Message/Request/NotifyRequest.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -125,7 +125,7 @@
     <token name="T_DOC_COMMENT">     * @param string $icon  Notification icon.</token>
   </line>
   <line no="34">
-    <token name="T_DOC_COMMENT">     * @param int $timeout  Notification timeout.</token>
+    <token name="T_DOC_COMMENT">     * @param int $duration  Notification duration.</token>
   </line>
   <line no="35">
     <token name="T_DOC_COMMENT">     * @param int $priority Notification priority.</token>
@@ -161,17 +161,16 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">int</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_VARIABLE">$timeout</token>
+    <token name="T_VARIABLE">$duration</token>
     <token name="T_PHPDOX_EQUAL">=</token>
-    <token name="T_LNUMBER">0</token>
+    <token name="T_LNUMBER">3</token>
     <token name="T_PHPDOX_COMMA">,</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">int</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_VARIABLE">$priority</token>
     <token name="T_PHPDOX_EQUAL">=</token>
-    <token name="T_PHPDOX_MINUS">-</token>
-    <token name="T_LNUMBER">1</token>
+    <token name="T_LNUMBER">0</token>
     <token name="T_PHPDOX_COMMA">,</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">string</token>
@@ -244,10 +243,10 @@
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
     <token name="T_STRING">addToContent</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_CONSTANT_ENCAPSED_STRING">"timeout"</token>
+    <token name="T_CONSTANT_ENCAPSED_STRING">"duration"</token>
     <token name="T_PHPDOX_COMMA">,</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_VARIABLE">$timeout</token>
+    <token name="T_VARIABLE">$duration</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
