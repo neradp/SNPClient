@@ -9,7 +9,7 @@
             <inheritance resolve="true">
             </inheritance>
         </collector>
-        <generator output="${basedir}/doc/api">
+        <generator output="${basedir}/docs/api">
             <enrich base="${basedir}/build">
                 <source type="phpcs">
                     <file name="phpcs.xml" />

@@ -40,7 +40,7 @@
     </filter>
     <logging>
         <log type="coverage-xml" target="build/coverage"/>
-        <log type="coverage-html" target="doc/coverage"/>
+        <log type="coverage-html" target="docs/coverage"/>
         <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
     </logging>
 </phpunit>
