@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request" abstract="false" final="false" start="25" end="104">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Request.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request.php" size="2650" time="2018-09-24T19:55:05+02:00" unixtime="1537811705" sha1="31ee54add406dc2f1cc7f4d4d7fbbfc603b69344" relative="bTd/SNP/Protocol/Message/Request.php"/>
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Request.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request.php" size="2650" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="31ee54add406dc2f1cc7f4d4d7fbbfc603b69344" relative="bTd/SNP/Protocol/Message/Request.php"/>
   <docblock>
     <description compact="Class Request"/>
     <package value="bTd\SNP\Protocol\Message"/>

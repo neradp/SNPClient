@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request\NotifyRequest" namespace="bTd\SNP\Protocol\Message\Request" name="NotifyRequest" abstract="false" final="false" start="25" end="53">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="NotifyRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/NotifyRequest.php" size="1354" time="2018-09-24T20:39:36+02:00" unixtime="1537814376" sha1="8b4e9afad02c9c471797ae3bdfffcb7acabc0ec3" relative="bTd/SNP/Protocol/Message/Request/NotifyRequest.php"/>
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="NotifyRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/NotifyRequest.php" size="1407" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="009a8a2a68f1f620812c8849e3aac1f920e85fb4" relative="bTd/SNP/Protocol/Message/Request/NotifyRequest.php"/>
   <docblock>
     <description compact="Class NotifyRequest"/>
     <package value="bTd\SNP\Protocol\Message\Request"/>

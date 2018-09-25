@@ -4,23 +4,23 @@
     <dir name="bTd">
       <dir name="SNP">
         <dir name="Client">
-          <file name="Client.php" size="4894" time="2018-09-24T19:55:05+02:00" unixtime="1537811705" sha1="405289eec1d360a14eeadbf22c2ef15c359af356" xml="tokens/bTd/SNP/Client/Client.php.xml"/>
+          <file name="Client.php" size="4894" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="405289eec1d360a14eeadbf22c2ef15c359af356" xml="tokens/bTd/SNP/Client/Client.php.xml"/>
         </dir>
         <dir name="Protocol">
           <dir name="Message">
             <dir name="Request">
-              <file name="ForwardRequest.php" size="1498" time="2018-09-24T20:39:54+02:00" unixtime="1537814394" sha1="7269001b6376713b2e4504ddf672182e8970b403" xml="tokens/bTd/SNP/Protocol/Message/Request/ForwardRequest.php.xml"/>
-              <file name="NotifyRequest.php" size="1354" time="2018-09-24T20:39:36+02:00" unixtime="1537814376" sha1="8b4e9afad02c9c471797ae3bdfffcb7acabc0ec3" xml="tokens/bTd/SNP/Protocol/Message/Request/NotifyRequest.php.xml"/>
-              <file name="RegisterRequest.php" size="1215" time="2018-09-22T17:28:32+02:00" unixtime="1537630112" sha1="1fa2d2be06f975cccdb5aa09bff369db9e033d37" xml="tokens/bTd/SNP/Protocol/Message/Request/RegisterRequest.php.xml"/>
+              <file name="ForwardRequest.php" size="1553" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="48d3cbdd068dddefab807de43abc5b322604721a" xml="tokens/bTd/SNP/Protocol/Message/Request/ForwardRequest.php.xml"/>
+              <file name="NotifyRequest.php" size="1407" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="009a8a2a68f1f620812c8849e3aac1f920e85fb4" xml="tokens/bTd/SNP/Protocol/Message/Request/NotifyRequest.php.xml"/>
+              <file name="RegisterRequest.php" size="1272" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="8e9e439dbe5265b931937bf3442a600af8bffb05" xml="tokens/bTd/SNP/Protocol/Message/Request/RegisterRequest.php.xml"/>
             </dir>
-            <file name="Request.php" size="2650" time="2018-09-24T19:55:05+02:00" unixtime="1537811705" sha1="31ee54add406dc2f1cc7f4d4d7fbbfc603b69344" xml="tokens/bTd/SNP/Protocol/Message/Request.php.xml"/>
+            <file name="Request.php" size="2650" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="31ee54add406dc2f1cc7f4d4d7fbbfc603b69344" xml="tokens/bTd/SNP/Protocol/Message/Request.php.xml"/>
             <dir name="Response">
-              <file name="ErrorResponseException.php" size="957" time="2018-09-22T20:49:43+02:00" unixtime="1537642183" sha1="285caca2b60cf79d29bc41932d9eda8531753073" xml="tokens/bTd/SNP/Protocol/Message/Response/ErrorResponseException.php.xml"/>
+              <file name="ErrorResponseException.php" size="1013" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="1565d9f8e0dd450e232e3236a042d94440662652" xml="tokens/bTd/SNP/Protocol/Message/Response/ErrorResponseException.php.xml"/>
             </dir>
-            <file name="Response.php" size="1825" time="2018-09-22T20:55:57+02:00" unixtime="1537642557" sha1="dbe7b668d60cfbc05a03f8b00b92becf1c3805d6" xml="tokens/bTd/SNP/Protocol/Message/Response.php.xml"/>
+            <file name="Response.php" size="1905" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="24c3d40a5ea78ac1c7bad3aca241f91a39417dc4" xml="tokens/bTd/SNP/Protocol/Message/Response.php.xml"/>
           </dir>
-          <file name="Message.php" size="2855" time="2018-09-22T20:14:34+02:00" unixtime="1537640074" sha1="55e43c86353d7edfe0949080cc072dc6013ffb5b" xml="tokens/bTd/SNP/Protocol/Message.php.xml"/>
-          <file name="Protocol.php" size="1312" time="2018-09-22T17:23:01+02:00" unixtime="1537629781" sha1="8e7712c3adea77e9244525fcf46c9e7403f2a779" xml="tokens/bTd/SNP/Protocol/Protocol.php.xml"/>
+          <file name="Message.php" size="3002" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="d225df6568eaf778366d4aeb891388806ebc12a7" xml="tokens/bTd/SNP/Protocol/Message.php.xml"/>
+          <file name="Protocol.php" size="1383" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="6e2f31d7c1a8f80db26ff3f9018be98edeb795f5" xml="tokens/bTd/SNP/Protocol/Protocol.php.xml"/>
         </dir>
       </dir>
     </dir>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="RegisterRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/RegisterRequest.php" size="1215" time="2018-09-22T17:28:32+02:00" unixtime="1537630112" sha1="1fa2d2be06f975cccdb5aa09bff369db9e033d37" relative="bTd/SNP/Protocol/Message/Request/RegisterRequest.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="RegisterRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/RegisterRequest.php" size="1272" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="8e9e439dbe5265b931937bf3442a600af8bffb05" relative="bTd/SNP/Protocol/Message/Request/RegisterRequest.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>

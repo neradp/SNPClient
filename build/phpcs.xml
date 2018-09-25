@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpcs version="3.3.1">
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Client\Client.php" errors="59" warnings="0" fixable="30">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Client\Client.php" errors="61" warnings="0" fixable="32">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="24" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
@@ -21,6 +22,7 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="53" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
     <error line="54" column="14" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value indented incorrectly; expected 2 spaces but found 1</error>
     <error line="55" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="57" column="47" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterHint" severity="5" fixable="1">Expected 1 space between type hint and argument &quot;$port&quot;; 2 found</error>
     <error line="62" column="9" source="Squiz.Commenting.InlineComment.NoSpaceBefore" severity="5" fixable="1">No space found before comment text; expected &quot;// create socket&quot; but found &quot;//create socket&quot;</error>
     <error line="62" column="9" source="Squiz.Commenting.InlineComment.NotCapital" severity="5" fixable="0">Inline comments must start with a capital letter</error>
     <error line="62" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
@@ -63,7 +65,8 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="200" column="5" source="Squiz.WhiteSpace.FunctionSpacing.AfterLast" severity="5" fixable="1">Expected 2 blank lines after function; 0 found</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message\Request\ForwardRequest.php" errors="15" warnings="0" fixable="13">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Request\ForwardRequest.php" errors="16" warnings="0" fixable="14">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="21" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
@@ -75,13 +78,14 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="33" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 3 found</error>
     <error line="34" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 3 found</error>
     <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
-    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 2 spaces after parameter name; 3 found</error>
+    <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 3 found</error>
     <error line="36" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
     <error line="36" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
     <error line="37" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message\Request\NotifyRequest.php" errors="12" warnings="0" fixable="10">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Request\NotifyRequest.php" errors="14" warnings="0" fixable="12">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="21" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
@@ -92,11 +96,13 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="32" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 2 found</error>
     <error line="33" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 5 spaces after parameter name; 2 found</error>
     <error line="34" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
+    <error line="34" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
     <error line="35" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamType" severity="5" fixable="1">Expected 4 spaces after parameter type; 1 found</error>
     <error line="36" column="8" source="PEAR.Commenting.FunctionComment.SpacingAfterParamName" severity="5" fixable="1">Expected 1 spaces after parameter name; 2 found</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message\Request\RegisterRequest.php" errors="16" warnings="0" fixable="5">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Request\RegisterRequest.php" errors="17" warnings="0" fixable="6">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="20" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
@@ -115,24 +121,30 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="47" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message\Request.php" errors="14" warnings="0" fixable="0">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Request.php" errors="19" warnings="0" fixable="4">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="30" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
-    <error line="52" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
-    <error line="53" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
-    <error line="69" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
-    <error line="70" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
-    <error line="71" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
-    <error line="72" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
-    <error line="76" column="9" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_basis&quot; is not in valid camel caps format</error>
-    <error line="77" column="49" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_basis&quot; is not in valid camel caps format</error>
-    <error line="78" column="9" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_hash&quot; is not in valid camel caps format</error>
-    <error line="79" column="81" source="Squiz.NamingConventions.ValidVariableName.StringNotCamelCaps" severity="5" fixable="0">Variable &quot;key_hash&quot; is not in valid camel caps format</error>
-    <error line="88" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="36" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="42" column="5" source="Squiz.Commenting.ClosingDeclarationComment.Missing" severity="5" fixable="1">Expected //end __construct()</error>
+    <error line="42" column="5" source="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose" severity="5" fixable="1">Expected 1 blank line before closing function brace; 0 found</error>
+    <error line="42" column="5" source="Squiz.WhiteSpace.FunctionSpacing.After" severity="5" fixable="1">Expected 2 blank lines after function; 1 found</error>
+    <error line="60" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="61" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="77" column="8" source="PEAR.Commenting.FunctionComment.MissingParamComment" severity="5" fixable="0">Missing parameter comment</error>
+    <error line="78" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="79" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
+    <error line="80" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="84" column="9" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_basis&quot; is not in valid camel caps format</error>
+    <error line="85" column="57" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_basis&quot; is not in valid camel caps format</error>
+    <error line="86" column="9" source="Squiz.NamingConventions.ValidVariableName.NotCamelCaps" severity="5" fixable="0">Variable &quot;key_hash&quot; is not in valid camel caps format</error>
+    <error line="87" column="89" source="Squiz.NamingConventions.ValidVariableName.StringNotCamelCaps" severity="5" fixable="0">Variable &quot;key_hash&quot; is not in valid camel caps format</error>
+    <error line="96" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message\Response\ErrorResponseException.php" errors="12" warnings="0" fixable="4">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Response\ErrorResponseException.php" errors="13" warnings="0" fixable="5">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="20" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
@@ -147,7 +159,8 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="46" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message\Response.php" errors="16" warnings="0" fixable="0">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Response.php" errors="17" warnings="0" fixable="2">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="33" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
@@ -163,10 +176,11 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="64" column="9" source="Squiz.Commenting.InlineComment.InvalidEndChar" severity="5" fixable="0">Inline comments must end in full-stops, exclamation marks, or question marks</error>
     <error line="70" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
     <error line="72" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
-    <error line="80" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
+    <error line="75" column="79" source="Generic.Formatting.SpaceAfterCast.NoSpace" severity="5" fixable="1">A cast statement must be followed by a single space</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Message.php" errors="13" warnings="0" fixable="0">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message.php" errors="14" warnings="0" fixable="2">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="25" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>
@@ -179,10 +193,11 @@ xml version="1.0" encoding="UTF-8"?>
     <error line="80" column="8" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag cannot be grouped with parameter tags in a doc comment</error>
     <error line="84" column="39" source="Squiz.Formatting.OperatorBracket.MissingBrackets" severity="5" fixable="0">Operation must be bracketed</error>
     <error line="124" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
-    <error line="148" column="6" source="PEAR.Commenting.FunctionComment.MissingReturn" severity="5" fixable="0">Missing @return tag in function comment</error>
+    <error line="141" column="5" source="Squiz.WhiteSpace.FunctionSpacing.AfterLast" severity="5" fixable="1">Expected 2 blank lines after function; 5 found</error>
 </file>
 xml version="1.0" encoding="UTF-8"?>
-<file name="src\bTd\SNP\Protocol\Protocol.php" errors="11" warnings="0" fixable="0">
+<file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Protocol.php" errors="12" warnings="0" fixable="1">
+    <error line="1" column="1" source="Generic.Files.LineEndings.InvalidEOLChar" severity="5" fixable="1">End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingAuthorTag" severity="5" fixable="0">Missing @author tag in file comment</error>
     <error line="4" column="2" source="PEAR.Commenting.FileComment.MissingLicenseTag" severity="5" fixable="0">Missing @license tag in file comment</error>
     <error line="23" column="5" source="Generic.Commenting.DocComment.MissingShort" severity="5" fixable="0">Missing short description in doc comment</error>

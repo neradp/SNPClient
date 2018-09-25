@@ -9,10 +9,15 @@
 
     <exclude-pattern>*/Standards/*/Tests/*\.(inc|css|js)</exclude-pattern>
 
-    <arg name="basepath" value="."/>
+    <!--<arg name="basepath" value="."/>-->
     <arg name="colors" />
-    <arg name="parallel" value="75" />
+    <!--<arg name="parallel" value="75" />-->
     <arg value="np"/>
+    <arg name="report-xml" value="build/phpcs.xml" />
+    <arg name="report-summary"  />
+
+    <config name="ignore_errors_on_exit" value="true" />
+    <config name="ignore_warnings_on_exit" value="true" />
 
     <!-- Don't hide tokenizer exceptions -->
     <rule ref="Internal.Tokenizer.Exception">
