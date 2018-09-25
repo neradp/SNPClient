@@ -18,9 +18,10 @@ use bTd\SNP\Protocol\Protocol;
 
 /**
  * Class ForwardRequest
+ *
  * @package bTd\SNP\Protocol\Message\Request
- * @TODO Implemment Actions
- * @see https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#forward
+ * @TODO    Implemment Actions
+ * @see     https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#forward
  */
 class ForwardRequest extends  Request
 {
@@ -28,13 +29,14 @@ class ForwardRequest extends  Request
 
     /**
      * ForwardRequest constructor.
-     * @param string $source From which application came request.
-     * @param string $title  Notification title.
-     * @param string $text   Notification text.
-     * @param string $icon   Notification icon.
-     * @param int $duration   Notification duration.
-     * @param int $priority  Notification priority.
-     * @param string $callback  Notification callback.
+     *
+     * @param string $source   From which application came request.
+     * @param string $title    Notification title.
+     * @param string $text     Notification text.
+     * @param string $icon     Notification icon.
+     * @param int    $duration Notification duration.
+     * @param int    $priority Notification priority.
+     * @param string $callback Notification callback.
      */
     public function __construct(string $source, string $title, string $text, string $icon, int $duration=3, int $priority=0, string $callback="")
     {

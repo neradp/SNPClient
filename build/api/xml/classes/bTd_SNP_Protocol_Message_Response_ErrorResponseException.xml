@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException" abstract="false" final="false" start="22" end="56">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response" file="ErrorResponseException.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response/ErrorResponseException.php" size="1013" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="1565d9f8e0dd450e232e3236a042d94440662652" relative="bTd/SNP/Protocol/Message/Response/ErrorResponseException.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Response\ErrorResponseException" namespace="bTd\SNP\Protocol\Message\Response" name="ErrorResponseException" abstract="false" final="false" start="23" end="57">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response" file="ErrorResponseException.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response/ErrorResponseException.php" size="987" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="2f8ecc02d684758235b270f057f22009d8688fc6" relative="bTd/SNP/Protocol/Message/Response/ErrorResponseException.php"/>
   <docblock>
     <description compact="Class ErrorResponseException"/>
     <package value="bTd\SNP\Protocol"/>
   </docblock>
   <extends full="Exception" namespace="" name="Exception"/>
-  <member name="reason" visibility="private" static="false" line="27">
+  <member name="reason" visibility="private" static="false" line="28">
     <docblock>
       <description/>
       <var type="string"/>
     </docblock>
   </member>
-  <constructor name="__construct" start="38" end="43" abstract="false" final="false" static="false" visibility="public">
+  <constructor name="__construct" start="39" end="44" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="ErrorResponseException constructor."/>
       <param type="string" variable="$message"/>
@@ -29,7 +29,7 @@
       <type full="Throwable" namespace="" name="Throwable"/>
     </parameter>
   </constructor>
-  <method name="getReason" start="49" end="53" abstract="false" final="false" static="false" visibility="public">
+  <method name="getReason" start="50" end="54" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="string"/>

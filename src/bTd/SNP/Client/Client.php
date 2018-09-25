@@ -21,6 +21,7 @@ use bTd\SNP\Protocol\Message\Response;
 
 /**
  * Class Client
+ *
  * @package bTd\SNP\Client
  */
 class Client
@@ -28,7 +29,7 @@ class Client
     /**
      * @var int Port of server
      */
-    private $port   = 9731;
+    private $port = 9731;
     /**
      * @var null|resource
      */
@@ -44,23 +45,24 @@ class Client
     /**
      * @var null Application registration identification
      */
-    private $appID   = null;
+    private $appID = null;
 
 
     /**
      * Client constructor.
-     * @param string $host Server IP address.
-     * @param int $port Server port.
-     * @param string|null $password Password to verify.
+     *
+     * @param  string      $host     Server IP address.
+     * @param  int         $port     Server port.
+     * @param  string|null $password Password to verify.
      * @throws \RuntimeException
      */
-    public function __construct(string $host, int  $port=9731, string $password=null)
+    public function __construct(string $host, int $port=9731, string $password=null)
     {
         $this->host     = $host;
         $this->port     = $port;
         $this->password = $password;
-        //create socket
-        $this->socket   = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) or $this->error();
+        // create socket
+        $this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) or $this->error();
         $this->connect();
 
     }//end __construct()
@@ -74,9 +76,10 @@ class Client
     private function error()
     {
         $code = socket_last_error($this->socket);
-        $msg = socket_strerror($code);
+        $msg  = socket_strerror($code);
         throw new \RuntimeException($msg, $code);
-    }
+
+    }//end error()
 
 
     /**
@@ -95,7 +98,7 @@ class Client
     /**
      * Send raw data to socket.
      *
-     * @param string $data Data to send to opened socket.
+     * @param  string $data Data to send to opened socket.
      * @throws \RuntimeException
      */
     private function send(string $data)
@@ -122,13 +125,13 @@ class Client
     /**
      * Send SNP Request message to server.
      *
-     * @param Request $request
+     * @param  Request $request
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException|\Exception
      */
     protected function sendRequest(Request $request): Response
     {
-        //set password authentication for request
+        // set password authentication for request
         if ($this->password !== null) {
             $request->authenticate($this->password);
         }
@@ -143,7 +146,7 @@ class Client
     /**
      * Send SNP Notify Request message to server.
      *
-     * @param NotifyRequest $notification
+     * @param  NotifyRequest $notification
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
@@ -156,28 +159,30 @@ class Client
         $response = $this->sendRequest($notification);
         return $response;
 
-    }//end sendNotification()
+    }//end notify()
+
 
     /**
      * Send SNP Register Request message to server.
      *
-     * @param RegisterRequest $application
+     * @param  RegisterRequest $application
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
     public function register(RegisterRequest $application): Response
     {
 
-        $response     = $this->sendRequest($application);
+        $response    = $this->sendRequest($application);
         $this->appID = $application->getApplicationIdentification();
         return $response;
 
-    }//end registerApplication()
+    }//end register()
+
 
     /**
      *  Send SNP Forward Request message to server.
      *
-     * @param ForwardRequest $forward
+     * @param  ForwardRequest $forward
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
@@ -186,7 +191,8 @@ class Client
         $response = $this->sendRequest($forward);
         return $response;
 
-    }//end sendForward()
+    }//end forward()
+
 
     /**
      * Destructor - close opened socket
@@ -198,4 +204,6 @@ class Client
         }
 
     }//end __destruct()
+
+
 }//end class

@@ -17,6 +17,7 @@ use Throwable;
 
 /**
  * Class ErrorResponseException
+ *
  * @package bTd\SNP\Protocol
  */
 class ErrorResponseException extends \Exception
@@ -30,9 +31,9 @@ class ErrorResponseException extends \Exception
     /**
      * ErrorResponseException constructor.
      *
-     * @param string $message
-     * @param int $code
-     * @param string $reason
+     * @param string         $message
+     * @param int            $code
+     * @param string         $reason
      * @param Throwable|null $previous
      */
     public function __construct(string $message="", int $code=0, string $reason="", Throwable $previous=null)

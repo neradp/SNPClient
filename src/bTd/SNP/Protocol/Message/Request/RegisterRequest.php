@@ -17,8 +17,9 @@ use bTd\SNP\Protocol\Protocol;
 
 /**
  * Class RegisterRequest
+ *
  * @package bTd\SNP\Protocol\Message\Request
-  * @see https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#register
+ * @see     https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#register
  */
 class RegisterRequest extends Request
 {
@@ -26,10 +27,11 @@ class RegisterRequest extends Request
 
     /**
      * RegisterRequest constructor.
+     *
      * @param string $appSig
      * @param string $title
      * @param string $icon
-     * @param int $keep_alive
+     * @param int    $keep_alive
      */
     public function __construct(string $appID, string $title, string $icon, int $keepAlive=1)
     {

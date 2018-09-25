@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request\ForwardRequest" namespace="bTd\SNP\Protocol\Message\Request" name="ForwardRequest" abstract="false" final="false" start="25" end="55">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="ForwardRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/ForwardRequest.php" size="1553" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="48d3cbdd068dddefab807de43abc5b322604721a" relative="bTd/SNP/Protocol/Message/Request/ForwardRequest.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request\ForwardRequest" namespace="bTd\SNP\Protocol\Message\Request" name="ForwardRequest" abstract="false" final="false" start="26" end="57">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="ForwardRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/ForwardRequest.php" size="1525" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="0a0104cfd2799ecacfa431efaac95a8cd48d4acd" relative="bTd/SNP/Protocol/Message/Request/ForwardRequest.php"/>
   <docblock>
     <description compact="Class ForwardRequest"/>
     <package value="bTd\SNP\Protocol\Message\Request"/>
@@ -8,7 +8,7 @@
     <see value="https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#forward"/>
   </docblock>
   <extends full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request"/>
-  <constructor name="__construct" start="39" end="52" abstract="false" final="false" static="false" visibility="public">
+  <constructor name="__construct" start="41" end="54" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="ForwardRequest constructor."/>
       <param description="From which application came request." type="string" variable="$source"/>
@@ -29,21 +29,21 @@
   </constructor>
   <parent full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request">
     <extends full="bTd\SNP\Protocol\Message" namespace="bTd\SNP\Protocol" name="Message"/>
-    <constructor name="__construct" start="39" end="42" abstract="false" final="false" static="false" visibility="public">
+    <constructor name="__construct" start="39" end="43" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description/>
         <param description="Contain the type of request message." type="string" variable="$requestType"/>
       </docblock>
       <parameter name="requestType" byreference="false" type="{unknown}"/>
     </constructor>
-    <method name="getRequestType" start="49" end="53" abstract="false" final="false" static="false" visibility="public">
+    <method name="getRequestType" start="51" end="55" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Get type of request message."/>
         <return description="Type of request message." type="string"/>
       </docblock>
       <return type="string" nullable="false"/>
     </method>
-    <method name="setRequestType" start="62" end="71" abstract="false" final="false" static="false" visibility="protected">
+    <method name="setRequestType" start="64" end="73" abstract="false" final="false" static="false" visibility="protected">
       <docblock>
         <description compact="Update header of message by the request type."/>
         <param description="Type of request message." type="string" variable="$type"/>
@@ -53,7 +53,7 @@
       </docblock>
       <parameter name="type" byreference="false" type="string"/>
     </method>
-    <method name="authenticate" start="81" end="89" abstract="false" final="false" static="false" visibility="public">
+    <method name="authenticate" start="83" end="91" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Add authentication part to message header."/>
         <param type="string" variable="$password"/>
@@ -64,7 +64,7 @@
       </docblock>
       <parameter name="password" byreference="false" type="string"/>
     </method>
-    <method name="setApplicationIdentification" start="97" end="101" abstract="false" final="false" static="false" visibility="public">
+    <method name="setApplicationIdentification" start="99" end="103" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Add registered application ID to message content, common routine for request messages."/>
         <param description="Registered Application ID." type="string" variable="$appID"/>

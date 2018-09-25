@@ -72,7 +72,7 @@ class Response extends Message
      */
     protected function throwErrorException(): \Exception
     {
-        throw new ErrorResponseException($this->getFromContent('error-name'), (int)$this->getFromContent('error-number'), $this->getFromContent('reason'));
+        throw new ErrorResponseException($this->getFromContent('error-name'), (int) $this->getFromContent('error-number'), $this->getFromContent('reason'));
 
     }//end throwErrorException()
 

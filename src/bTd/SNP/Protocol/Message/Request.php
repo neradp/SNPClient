@@ -39,7 +39,9 @@ class Request extends Message
     public function __construct($requestType)
     {
             $this->setRequestType($requestType);
-    }
+
+    }//end __construct()
+
 
     /**
      * Get type of request message.

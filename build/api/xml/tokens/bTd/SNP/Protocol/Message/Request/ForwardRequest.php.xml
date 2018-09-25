@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="ForwardRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/ForwardRequest.php" size="1553" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="48d3cbdd068dddefab807de43abc5b322604721a" relative="bTd/SNP/Protocol/Message/Request/ForwardRequest.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="ForwardRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/ForwardRequest.php" size="1525" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="0a0104cfd2799ecacfa431efaac95a8cd48d4acd" relative="bTd/SNP/Protocol/Message/Request/ForwardRequest.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -83,18 +83,21 @@
     <token name="T_DOC_COMMENT"> * Class ForwardRequest</token>
   </line>
   <line no="21">
-    <token name="T_DOC_COMMENT"> * @package bTd\SNP\Protocol\Message\Request</token>
+    <token name="T_DOC_COMMENT"> *</token>
   </line>
   <line no="22">
-    <token name="T_DOC_COMMENT"> * @TODO Implemment Actions</token>
+    <token name="T_DOC_COMMENT"> * @package bTd\SNP\Protocol\Message\Request</token>
   </line>
   <line no="23">
-    <token name="T_DOC_COMMENT"> * @see https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#forward</token>
+    <token name="T_DOC_COMMENT"> * @TODO    Implemment Actions</token>
   </line>
   <line no="24">
-    <token name="T_DOC_COMMENT"> */</token>
+    <token name="T_DOC_COMMENT"> * @see     https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#forward</token>
   </line>
   <line no="25">
+    <token name="T_DOC_COMMENT"> */</token>
+  </line>
+  <line no="26">
     <token name="T_CLASS">class</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">ForwardRequest</token>
@@ -103,43 +106,46 @@
     <token name="T_WHITESPACE">  </token>
     <token name="T_STRING">Request</token>
   </line>
-  <line no="26">
+  <line no="27">
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="27"/>
   <line no="28"/>
-  <line no="29">
+  <line no="29"/>
+  <line no="30">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="30">
+  <line no="31">
     <token name="T_DOC_COMMENT">     * ForwardRequest constructor.</token>
   </line>
-  <line no="31">
-    <token name="T_DOC_COMMENT">     * @param string $source From which application came request.</token>
-  </line>
   <line no="32">
-    <token name="T_DOC_COMMENT">     * @param string $title  Notification title.</token>
+    <token name="T_DOC_COMMENT">     *</token>
   </line>
   <line no="33">
-    <token name="T_DOC_COMMENT">     * @param string $text   Notification text.</token>
+    <token name="T_DOC_COMMENT">     * @param string $source   From which application came request.</token>
   </line>
   <line no="34">
-    <token name="T_DOC_COMMENT">     * @param string $icon   Notification icon.</token>
+    <token name="T_DOC_COMMENT">     * @param string $title    Notification title.</token>
   </line>
   <line no="35">
-    <token name="T_DOC_COMMENT">     * @param int $duration   Notification duration.</token>
+    <token name="T_DOC_COMMENT">     * @param string $text     Notification text.</token>
   </line>
   <line no="36">
-    <token name="T_DOC_COMMENT">     * @param int $priority  Notification priority.</token>
+    <token name="T_DOC_COMMENT">     * @param string $icon     Notification icon.</token>
   </line>
   <line no="37">
-    <token name="T_DOC_COMMENT">     * @param string $callback  Notification callback.</token>
+    <token name="T_DOC_COMMENT">     * @param int    $duration Notification duration.</token>
   </line>
   <line no="38">
-    <token name="T_DOC_COMMENT">     */</token>
+    <token name="T_DOC_COMMENT">     * @param int    $priority Notification priority.</token>
   </line>
   <line no="39">
+    <token name="T_DOC_COMMENT">     * @param string $callback Notification callback.</token>
+  </line>
+  <line no="40">
+    <token name="T_DOC_COMMENT">     */</token>
+  </line>
+  <line no="41">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -188,12 +194,12 @@
     <token name="T_CONSTANT_ENCAPSED_STRING">""</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="40">
+  <line no="42">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="41"/>
-  <line no="42">
+  <line no="43"/>
+  <line no="44">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -205,8 +211,8 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="43"/>
-  <line no="44">
+  <line no="45"/>
+  <line no="46">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -219,7 +225,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="45">
+  <line no="47">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -232,7 +238,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="46">
+  <line no="48">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -245,7 +251,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="47">
+  <line no="49">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -258,7 +264,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="48">
+  <line no="50">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -271,7 +277,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="49">
+  <line no="51">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -284,7 +290,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="50">
+  <line no="52">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -297,17 +303,17 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="51"/>
-  <line no="52">
+  <line no="53"/>
+  <line no="54">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end __construct()</token>
   </line>
-  <line no="53"/>
-  <line no="54"/>
-  <line no="55">
+  <line no="55"/>
+  <line no="56"/>
+  <line no="57">
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end class</token>
   </line>
-  <line no="56"/>
+  <line no="58"/>
 </source>

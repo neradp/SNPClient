@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Request.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request.php" size="2650" time="2018-09-25T00:54:08+02:00" unixtime="1537829648" sha1="31ee54add406dc2f1cc7f4d4d7fbbfc603b69344" relative="bTd/SNP/Protocol/Message/Request.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Request.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request.php" size="2567" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="8cad4b3eaf6e56fc76984b24028a2f857f545218" relative="bTd/SNP/Protocol/Message/Request.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -159,28 +159,31 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="42">
+  <line no="42"/>
+  <line no="43">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
+    <token name="T_COMMENT">//end __construct()</token>
   </line>
-  <line no="43"/>
-  <line no="44">
+  <line no="44"/>
+  <line no="45"/>
+  <line no="46">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="45">
+  <line no="47">
     <token name="T_DOC_COMMENT">     * Get type of request message.</token>
   </line>
-  <line no="46">
+  <line no="48">
     <token name="T_DOC_COMMENT">     *</token>
   </line>
-  <line no="47">
+  <line no="49">
     <token name="T_DOC_COMMENT">     * @return string Type of request message.</token>
   </line>
-  <line no="48">
+  <line no="50">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="49">
+  <line no="51">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -193,11 +196,11 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">string</token>
   </line>
-  <line no="50">
+  <line no="52">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="51">
+  <line no="53">
     <token name="T_WHITESPACE">        </token>
     <token name="T_RETURN">return</token>
     <token name="T_WHITESPACE"> </token>
@@ -206,34 +209,34 @@
     <token name="T_STRING">requestType</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="52"/>
-  <line no="53">
+  <line no="54"/>
+  <line no="55">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end getRequestType()</token>
   </line>
-  <line no="54"/>
-  <line no="55"/>
-  <line no="56">
+  <line no="56"/>
+  <line no="57"/>
+  <line no="58">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="57">
+  <line no="59">
     <token name="T_DOC_COMMENT">     * Update header of message by the request type.</token>
   </line>
-  <line no="58">
+  <line no="60">
     <token name="T_DOC_COMMENT">     *</token>
   </line>
-  <line no="59">
+  <line no="61">
     <token name="T_DOC_COMMENT">     * @param  string $type Type of request message.</token>
   </line>
-  <line no="60">
+  <line no="62">
     <token name="T_DOC_COMMENT">     * @throws \TypeError</token>
   </line>
-  <line no="61">
+  <line no="63">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="62">
+  <line no="64">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PROTECTED">protected</token>
     <token name="T_WHITESPACE"> </token>
@@ -246,11 +249,11 @@
     <token name="T_VARIABLE">$type</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="63">
+  <line no="65">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="64">
+  <line no="66">
     <token name="T_WHITESPACE">        </token>
     <token name="T_IF">if</token>
     <token name="T_WHITESPACE"> </token>
@@ -286,7 +289,7 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="65">
+  <line no="67">
     <token name="T_WHITESPACE">            </token>
     <token name="T_THROW">throw</token>
     <token name="T_WHITESPACE"> </token>
@@ -303,12 +306,12 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="66">
+  <line no="68">
     <token name="T_WHITESPACE">        </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="67"/>
-  <line no="68">
+  <line no="69"/>
+  <line no="70">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -319,7 +322,7 @@
     <token name="T_VARIABLE">$type</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="69">
+  <line no="71">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -335,37 +338,37 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="70"/>
-  <line no="71">
+  <line no="72"/>
+  <line no="73">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end setRequestType()</token>
   </line>
-  <line no="72"/>
-  <line no="73"/>
-  <line no="74">
+  <line no="74"/>
+  <line no="75"/>
+  <line no="76">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="75">
+  <line no="77">
     <token name="T_DOC_COMMENT">     * Add authentication part to message header.</token>
   </line>
-  <line no="76">
+  <line no="78">
     <token name="T_DOC_COMMENT">     *</token>
   </line>
-  <line no="77">
+  <line no="79">
     <token name="T_DOC_COMMENT">     * @param  string $password</token>
   </line>
-  <line no="78">
+  <line no="80">
     <token name="T_DOC_COMMENT">     * @throws \Exception</token>
   </line>
-  <line no="79">
+  <line no="81">
     <token name="T_DOC_COMMENT">     * @see    https://github.com/fullphat/snarl/wiki/SNP-3.1#authentication https://github.com/fullphat/snarl/wiki/Snarl-Developer-Guide#authentication</token>
   </line>
-  <line no="80">
+  <line no="82">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="81">
+  <line no="83">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -378,11 +381,11 @@
     <token name="T_VARIABLE">$password</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="82">
+  <line no="84">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="83">
+  <line no="85">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$salt</token>
     <token name="T_WHITESPACE">      </token>
@@ -394,7 +397,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="84">
+  <line no="86">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$key_basis</token>
     <token name="T_WHITESPACE"> </token>
@@ -405,7 +408,7 @@
     <token name="T_VARIABLE">$salt</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="85">
+  <line no="87">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$key</token>
     <token name="T_WHITESPACE">       </token>
@@ -425,7 +428,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="86">
+  <line no="88">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$key_hash</token>
     <token name="T_WHITESPACE">  </token>
@@ -442,7 +445,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="87">
+  <line no="89">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -476,31 +479,31 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="88"/>
-  <line no="89">
+  <line no="90"/>
+  <line no="91">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end authenticate()</token>
   </line>
-  <line no="90"/>
-  <line no="91"/>
-  <line no="92">
+  <line no="92"/>
+  <line no="93"/>
+  <line no="94">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="93">
+  <line no="95">
     <token name="T_DOC_COMMENT">     * Add registered application ID to message content, common routine for request messages.</token>
   </line>
-  <line no="94">
+  <line no="96">
     <token name="T_DOC_COMMENT">     *</token>
   </line>
-  <line no="95">
+  <line no="97">
     <token name="T_DOC_COMMENT">     * @param string $appID Registered Application ID.</token>
   </line>
-  <line no="96">
+  <line no="98">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="97">
+  <line no="99">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -516,11 +519,11 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">void</token>
   </line>
-  <line no="98">
+  <line no="100">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="99">
+  <line no="101">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -533,17 +536,17 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="100"/>
-  <line no="101">
+  <line no="102"/>
+  <line no="103">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end setApplicationIdentification()</token>
   </line>
-  <line no="102"/>
-  <line no="103"/>
-  <line no="104">
+  <line no="104"/>
+  <line no="105"/>
+  <line no="106">
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end class</token>
   </line>
-  <line no="105"/>
+  <line no="107"/>
 </source>
