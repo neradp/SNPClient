@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <source xmlns="http://xml.phpdox.net/token">
-  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Response.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response.php" size="1826" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="794350f73e9e0f294bebaa9c6c646f46674d5407" relative="bTd/SNP/Protocol/Message/Response.php"/>
+  <file xmlns="http://xml.phpdox.net/src" path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message" file="Response.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Response.php" size="1935" time="2018-09-27T19:19:48+02:00" unixtime="1538068788" sha1="9313d97d2ab6ac4000dfd60b9aff9a2e6d7aeb13" relative="bTd/SNP/Protocol/Message/Response.php"/>
   <line no="1">
     <token name="T_OPEN_TAG">&lt;?php</token>
   </line>
@@ -8,32 +8,25 @@
     <token name="T_DOC_COMMENT">/**</token>
   </line>
   <line no="3">
-    <token name="T_DOC_COMMENT"> * Copyright (c) 2018. Peter Ner&#xE1;d</token>
-  </line>
-  <line no="4">
-    <token name="T_DOC_COMMENT"> */</token>
-  </line>
-  <line no="5"/>
-  <line no="6">
-    <token name="T_DOC_COMMENT">/**</token>
-  </line>
-  <line no="7">
     <token name="T_DOC_COMMENT"> * Project: SNPClient</token>
   </line>
+  <line no="4">
+    <token name="T_DOC_COMMENT"> *</token>
+  </line>
+  <line no="5">
+    <token name="T_DOC_COMMENT"> * @author    Peter Ner&#xE1;d &lt;nerad.peter@gmail.com&gt;</token>
+  </line>
+  <line no="6">
+    <token name="T_DOC_COMMENT"> * @copyright 2018 Peter Ner&#xE1;d</token>
+  </line>
+  <line no="7">
+    <token name="T_DOC_COMMENT"> * @license   https://opensource.org/licenses/MIT MIT</token>
+  </line>
   <line no="8">
-    <token name="T_DOC_COMMENT"> * Author: Peter Ner&#xE1;d</token>
-  </line>
-  <line no="9">
-    <token name="T_DOC_COMMENT"> * Date: 17. 9. 2018</token>
-  </line>
-  <line no="10">
-    <token name="T_DOC_COMMENT"> * Time: 22:16</token>
-  </line>
-  <line no="11">
     <token name="T_DOC_COMMENT"> */</token>
   </line>
-  <line no="12"/>
-  <line no="13">
+  <line no="9"/>
+  <line no="10">
     <token name="T_NAMESPACE">namespace</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">bTd</token>
@@ -45,8 +38,8 @@
     <token name="T_STRING">Message</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="14"/>
-  <line no="15">
+  <line no="11"/>
+  <line no="12">
     <token name="T_USE">use</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">bTd</token>
@@ -62,7 +55,7 @@
     <token name="T_STRING">ErrorResponseException</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="16">
+  <line no="13">
     <token name="T_USE">use</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">bTd</token>
@@ -74,7 +67,7 @@
     <token name="T_STRING">Message</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="17">
+  <line no="14">
     <token name="T_USE">use</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">bTd</token>
@@ -86,26 +79,26 @@
     <token name="T_STRING">Protocol</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="18"/>
-  <line no="19">
+  <line no="15"/>
+  <line no="16">
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="20">
+  <line no="17">
     <token name="T_DOC_COMMENT"> * Class Response</token>
   </line>
-  <line no="21">
+  <line no="18">
     <token name="T_DOC_COMMENT"> *</token>
   </line>
-  <line no="22">
+  <line no="19">
     <token name="T_DOC_COMMENT"> * @package bTd\SNP\Protocol\Message</token>
   </line>
-  <line no="23">
+  <line no="20">
     <token name="T_DOC_COMMENT"> * @see     https://github.com/fullphat/snarl/wiki/SNP-3.1#response-structure</token>
   </line>
-  <line no="24">
+  <line no="21">
     <token name="T_DOC_COMMENT"> */</token>
   </line>
-  <line no="25">
+  <line no="22">
     <token name="T_CLASS">class</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">Response</token>
@@ -114,31 +107,34 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">Message</token>
   </line>
-  <line no="26">
+  <line no="23">
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="27"/>
-  <line no="28"/>
-  <line no="29">
+  <line no="24"/>
+  <line no="25"/>
+  <line no="26">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="30">
+  <line no="27">
     <token name="T_DOC_COMMENT">     * Response constructor.</token>
   </line>
-  <line no="31">
+  <line no="28">
     <token name="T_DOC_COMMENT">     *</token>
   </line>
-  <line no="32">
-    <token name="T_DOC_COMMENT">     * @param  string $response Raw response message.</token>
+  <line no="29">
+    <token name="T_DOC_COMMENT">     * @param string $response Raw response message.</token>
   </line>
-  <line no="33">
+  <line no="30">
+    <token name="T_DOC_COMMENT">     *</token>
+  </line>
+  <line no="31">
     <token name="T_DOC_COMMENT">     * @throws ErrorResponseException</token>
   </line>
-  <line no="34">
+  <line no="32">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="35">
+  <line no="33">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -151,12 +147,12 @@
     <token name="T_VARIABLE">$response</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
   </line>
-  <line no="36">
+  <line no="34">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="37"/>
-  <line no="38">
+  <line no="35"/>
+  <line no="36">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$responseData</token>
     <token name="T_WHITESPACE"> </token>
@@ -173,7 +169,7 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="39">
+  <line no="37">
     <token name="T_WHITESPACE">        </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -186,8 +182,25 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="40"/>
-  <line no="41">
+  <line no="38">
+    <token name="T_WHITESPACE">        </token>
+    <token name="T_VARIABLE">$length</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_EQUAL">=</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_STRING">count</token>
+    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
+    <token name="T_VARIABLE">$responseData</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_PHPDOX_MINUS">-</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">2</token>
+    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_PHPDOX_SEMICOLON">;</token>
+  </line>
+  <line no="39">
     <token name="T_WHITESPACE">        </token>
     <token name="T_FOR">for</token>
     <token name="T_WHITESPACE"> </token>
@@ -203,16 +216,7 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_LT">&lt;</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_STRING">sizeof</token>
-    <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_VARIABLE">$responseData</token>
-    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_PHPDOX_MINUS">-</token>
-    <token name="T_WHITESPACE"> </token>
-    <token name="T_LNUMBER">2</token>
-    <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_VARIABLE">$length</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_VARIABLE">$i</token>
@@ -221,14 +225,14 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="42">
+  <line no="40">
     <token name="T_WHITESPACE">            </token>
     <token name="T_LIST">list</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_VARIABLE">$k</token>
+    <token name="T_VARIABLE">$key</token>
     <token name="T_PHPDOX_COMMA">,</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_VARIABLE">$v</token>
+    <token name="T_VARIABLE">$value</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_EQUAL">=</token>
@@ -245,47 +249,50 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="43">
+  <line no="41">
     <token name="T_WHITESPACE">            </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
     <token name="T_STRING">addToContent</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_VARIABLE">$k</token>
+    <token name="T_VARIABLE">$key</token>
     <token name="T_PHPDOX_COMMA">,</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">trim</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_VARIABLE">$v</token>
+    <token name="T_VARIABLE">$value</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="44">
+  <line no="42">
     <token name="T_WHITESPACE">        </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="45"/>
-  <line no="46">
+  <line no="43"/>
+  <line no="44">
     <token name="T_WHITESPACE">        </token>
-    <token name="T_COMMENT">// in case message is not success response throw exception</token>
+    <token name="T_COMMENT">// In case message is not success response throw exception.</token>
   </line>
-  <line no="47">
+  <line no="45">
     <token name="T_WHITESPACE">        </token>
     <token name="T_IF">if</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
-    <token name="T_PHPDOX_EXCLAMATION_MARK">!</token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
     <token name="T_STRING">isSuccess</token>
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_IS_NOT_IDENTICAL">!==</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_STRING">true</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="48">
+  <line no="46">
     <token name="T_WHITESPACE">            </token>
     <token name="T_VARIABLE">$this</token>
     <token name="T_OBJECT_OPERATOR">-&gt;</token>
@@ -294,29 +301,29 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="49">
+  <line no="47">
     <token name="T_WHITESPACE">        </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="50"/>
-  <line no="51">
+  <line no="48"/>
+  <line no="49">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end __construct()</token>
   </line>
-  <line no="52"/>
-  <line no="53"/>
-  <line no="54">
+  <line no="50"/>
+  <line no="51"/>
+  <line no="52">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="55">
+  <line no="53">
     <token name="T_DOC_COMMENT">     * @return bool</token>
   </line>
-  <line no="56">
+  <line no="54">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="57">
+  <line no="55">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PUBLIC">public</token>
     <token name="T_WHITESPACE"> </token>
@@ -329,15 +336,15 @@
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">bool</token>
   </line>
-  <line no="58">
+  <line no="56">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="59">
+  <line no="57">
     <token name="T_WHITESPACE">        </token>
-    <token name="T_COMMENT">// check to success response header</token>
+    <token name="T_COMMENT">// Check to success response header.</token>
   </line>
-  <line no="60">
+  <line no="58">
     <token name="T_WHITESPACE">        </token>
     <token name="T_IF">if</token>
     <token name="T_WHITESPACE"> </token>
@@ -365,52 +372,59 @@
     <token name="T_PHPDOX_OPEN_BRACKET">(</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_IS_IDENTICAL">===</token>
+    <token name="T_WHITESPACE"> </token>
+    <token name="T_LNUMBER">1</token>
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="61">
+  <line no="59">
     <token name="T_WHITESPACE">            </token>
     <token name="T_RETURN">return</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">true</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="62">
+  <line no="60">
     <token name="T_WHITESPACE">        </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
   </line>
-  <line no="63"/>
-  <line no="64">
+  <line no="61"/>
+  <line no="62">
     <token name="T_WHITESPACE">        </token>
-    <token name="T_COMMENT">// everything else is bad</token>
+    <token name="T_COMMENT">// Everything else is bad.</token>
   </line>
-  <line no="65">
+  <line no="63">
     <token name="T_WHITESPACE">        </token>
     <token name="T_RETURN">return</token>
     <token name="T_WHITESPACE"> </token>
     <token name="T_STRING">false</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="66"/>
-  <line no="67">
+  <line no="64"/>
+  <line no="65">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end isSuccess()</token>
   </line>
-  <line no="68"/>
-  <line no="69"/>
-  <line no="70">
+  <line no="66"/>
+  <line no="67"/>
+  <line no="68">
     <token name="T_WHITESPACE">    </token>
     <token name="T_DOC_COMMENT">/**</token>
   </line>
-  <line no="71">
+  <line no="69">
+    <token name="T_DOC_COMMENT">     * @return void</token>
+  </line>
+  <line no="70">
     <token name="T_DOC_COMMENT">     * @throws ErrorResponseException</token>
   </line>
-  <line no="72">
+  <line no="71">
     <token name="T_DOC_COMMENT">     */</token>
   </line>
-  <line no="73">
+  <line no="72">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PROTECTED">protected</token>
     <token name="T_WHITESPACE"> </token>
@@ -421,14 +435,13 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_COLON">:</token>
     <token name="T_WHITESPACE"> </token>
-    <token name="T_NS_SEPARATOR">\</token>
-    <token name="T_STRING">Exception</token>
+    <token name="T_STRING">void</token>
   </line>
-  <line no="74">
+  <line no="73">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_OPEN_CURLY">{</token>
   </line>
-  <line no="75">
+  <line no="74">
     <token name="T_WHITESPACE">        </token>
     <token name="T_THROW">throw</token>
     <token name="T_WHITESPACE"> </token>
@@ -463,17 +476,17 @@
     <token name="T_PHPDOX_CLOSE_BRACKET">)</token>
     <token name="T_PHPDOX_SEMICOLON">;</token>
   </line>
-  <line no="76"/>
-  <line no="77">
+  <line no="75"/>
+  <line no="76">
     <token name="T_WHITESPACE">    </token>
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end throwErrorException()</token>
   </line>
+  <line no="77"/>
   <line no="78"/>
-  <line no="79"/>
-  <line no="80">
+  <line no="79">
     <token name="T_PHPDOX_CLOSE_CURLY">}</token>
     <token name="T_COMMENT">//end class</token>
   </line>
-  <line no="81"/>
+  <line no="80"/>
 </source>

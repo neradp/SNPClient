@@ -1,28 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<pmd version="@project.version@" timestamp="2018-09-25T18:25:06+02:00">
-  <file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Request.php">
-    <violation beginline="83" endline="91" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="bTd\SNP\Protocol\Message" externalInfoUrl="#" class="Request" method="authenticate" priority="1">
-      The variable $key_basis is not named in camelCase.
-    </violation>
-    <violation beginline="83" endline="91" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="bTd\SNP\Protocol\Message" externalInfoUrl="#" class="Request" method="authenticate" priority="1">
-      The variable $key_basis is not named in camelCase.
-    </violation>
-    <violation beginline="83" endline="91" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="bTd\SNP\Protocol\Message" externalInfoUrl="#" class="Request" method="authenticate" priority="1">
-      The variable $key_hash is not named in camelCase.
-    </violation>
-    <violation beginline="83" endline="91" rule="CamelCaseVariableName" ruleset="Controversial Rules" package="bTd\SNP\Protocol\Message" externalInfoUrl="#" class="Request" method="authenticate" priority="1">
-      The variable $key_hash is not named in camelCase.
-    </violation>
-  </file>
-  <file name="C:\Users\peter\Projects\SNPClient\src\bTd\SNP\Protocol\Message\Response.php">
-    <violation beginline="41" endline="44" rule="CountInLoopExpression" ruleset="Design Rules" externalInfoUrl="https://phpmd.org/rules/design.html#countinloopexpression" priority="2">
-      Avoid using bTd\SNP\Protocol\Message\sizeof() function in for loops.
-    </violation>
-    <violation beginline="42" endline="42" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="https://phpmd.org/rules/naming.html#shortvariable" priority="3">
-      Avoid variables with short names like $k. Configured minimum length is 3.
-    </violation>
-    <violation beginline="42" endline="42" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="https://phpmd.org/rules/naming.html#shortvariable" priority="3">
-      Avoid variables with short names like $v. Configured minimum length is 3.
-    </violation>
-  </file>
+<pmd version="@project.version@" timestamp="2018-09-27T18:34:02+02:00">
 </pmd>

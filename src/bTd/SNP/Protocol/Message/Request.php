@@ -1,13 +1,10 @@
 <?php
 /**
- * Copyright (c) 2018. Peter Nerád
- */
-
-/**
  * Project: SNPClient
- * Author: Peter Nerád
- * Date: 15. 9. 2018
- * Time: 11:35
+ *
+ * @author    Peter Nerád <nerad.peter@gmail.com>
+ * @copyright 2018 Peter Nerád
+ * @license   https://opensource.org/licenses/MIT MIT
  */
 
 namespace bTd\SNP\Protocol\Message;
@@ -58,10 +55,12 @@ class Request extends Message
     /**
      * Update header of message by the request type.
      *
-     * @param  string $type Type of request message.
+     * @param string $type Type of request message.
+     *
+     * @return void
      * @throws \TypeError
      */
-    protected function setRequestType(string $type)
+    protected function setRequestType(string $type):void
     {
         if ($type !== Protocol::REQUEST_TYPE_NOTIFY && $type !== Protocol::REQUEST_TYPE_FORWARD && $type !== protocol::REQUEST_TYPE_REGISTER) {
             throw new \TypeError("Unsupported request type: $type!");
@@ -76,17 +75,19 @@ class Request extends Message
     /**
      * Add authentication part to message header.
      *
-     * @param  string $password
+     * @param string $password
+     *
+     * @return void
      * @throws \Exception
      * @see    https://github.com/fullphat/snarl/wiki/SNP-3.1#authentication https://github.com/fullphat/snarl/wiki/Snarl-Developer-Guide#authentication
      */
-    public function authenticate(string $password)
+    public function authenticate(string $password): void
     {
-        $salt      = random_bytes(10);
-        $key_basis = $password.$salt;
-        $key       = hash(Protocol::PASSWORD_HASH_TYPE, $key_basis, true);
-        $key_hash  = hash(Protocol::PASSWORD_HASH_TYPE, $key);
-        $this->setHeader($this->getHeader()." ".strtoupper(Protocol::PASSWORD_HASH_TYPE.":$key_hash.".bin2hex($salt)));
+        $salt     = random_bytes(10);
+        $keyBasis = $password.$salt;
+        $key      = hash(Protocol::PASSWORD_HASH_TYPE, $keyBasis, true);
+        $keyHash  = hash(Protocol::PASSWORD_HASH_TYPE, $key);
+        $this->setHeader($this->getHeader()." ".strtoupper(Protocol::PASSWORD_HASH_TYPE.":$keyHash.".bin2hex($salt)));
 
     }//end authenticate()
 
@@ -95,6 +96,8 @@ class Request extends Message
      * Add registered application ID to message content, common routine for request messages.
      *
      * @param string $appID Registered Application ID.
+     *
+     * @return void
      */
     public function setApplicationIdentification(string $appID): void
     {

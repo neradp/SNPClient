@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Client\Client" namespace="bTd\SNP\Client" name="Client" abstract="false" final="false" start="27" end="209">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4721" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="6a3cab3946faaffd73980a1673a366608e557723" relative="bTd/SNP/Client/Client.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Client\Client" namespace="bTd\SNP\Client" name="Client" abstract="false" final="false" start="24" end="215">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client" file="Client.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Client/Client.php" size="4877" time="2018-09-27T19:03:38+02:00" unixtime="1538067818" sha1="90edf7c0d38293997b216bbc1a6e18707c75b93d" relative="bTd/SNP/Client/Client.php"/>
   <docblock>
     <description compact="Class Client"/>
     <package value="bTd\SNP\Client"/>
   </docblock>
-  <member name="port" default="9731" type="integer" visibility="private" static="false" line="32">
+  <member name="port" default="9731" type="integer" visibility="private" static="false" line="29">
     <docblock>
       <description/>
       <var description="Port of server" type="int"/>
     </docblock>
   </member>
-  <member name="socket" default="NULL" visibility="private" static="false" line="36">
+  <member name="socket" default="NULL" visibility="private" static="false" line="33">
     <docblock>
       <description/>
       <var type="object">
@@ -19,13 +19,13 @@
       </var>
     </docblock>
   </member>
-  <member name="host" visibility="private" static="false" line="40">
+  <member name="host" visibility="private" static="false" line="37">
     <docblock>
       <description/>
       <var description="IP address of server" type="string"/>
     </docblock>
   </member>
-  <member name="password" default="NULL" visibility="private" static="false" line="44">
+  <member name="password" default="NULL" visibility="private" static="false" line="41">
     <docblock>
       <description/>
       <var description="Password used to verify messages against server" type="object">
@@ -33,13 +33,13 @@
       </var>
     </docblock>
   </member>
-  <member name="appID" default="NULL" visibility="private" static="false" line="48">
+  <member name="appID" default="NULL" visibility="private" static="false" line="45">
     <docblock>
       <description/>
       <var description="Application registration identification" type="null"/>
     </docblock>
   </member>
-  <constructor name="__construct" start="59" end="68" abstract="false" final="false" static="false" visibility="public">
+  <constructor name="__construct" start="57" end="66" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="Client constructor."/>
       <param description="Server IP address." type="string" variable="$host"/>
@@ -55,43 +55,55 @@
     <parameter name="port" byreference="false" type="integer" default="9731"/>
     <parameter name="password" byreference="false" type="string" default="NULL"/>
     <inline>
-      <comment value="create socket" line="64"/>
+      <comment value="Create socket." line="62"/>
     </inline>
   </constructor>
-  <method name="error" start="76" end="82" abstract="false" final="false" static="false" visibility="private">
+  <method name="error" start="75" end="81" abstract="false" final="false" static="false" visibility="private">
     <docblock>
       <description compact="Compose RuntimeException from socket error and throws it."/>
+      <return type="object">
+        <type full="bTd\SNP\Client\void" namespace="bTd\SNP\Client" name="void"/>
+      </return>
       <throws type="object">
         <type full="\RuntimeException" namespace="" name="RuntimeException"/>
       </throws>
     </docblock>
+    <return type="void" nullable="false"/>
   </method>
   <method name="connect" start="90" end="95" abstract="false" final="false" static="false" visibility="private">
     <docblock>
       <description compact="Connect socket  to server."/>
+      <return type="object">
+        <type full="bTd\SNP\Client\void" namespace="bTd\SNP\Client" name="void"/>
+      </return>
       <throws type="object">
         <type full="\RuntimeException" namespace="" name="RuntimeException"/>
       </throws>
     </docblock>
+    <return type="void" nullable="false"/>
   </method>
-  <method name="send" start="104" end="109" abstract="false" final="false" static="false" visibility="private">
+  <method name="send" start="106" end="111" abstract="false" final="false" static="false" visibility="private">
     <docblock>
       <description compact="Send raw data to socket."/>
       <param description="Data to send to opened socket." type="string" variable="$data"/>
+      <return type="object">
+        <type full="bTd\SNP\Client\void" namespace="bTd\SNP\Client" name="void"/>
+      </return>
       <throws type="object">
         <type full="\RuntimeException" namespace="" name="RuntimeException"/>
       </throws>
     </docblock>
+    <return type="void" nullable="false"/>
     <parameter name="data" byreference="false" type="string"/>
   </method>
-  <method name="get" start="117" end="122" abstract="false" final="false" static="false" visibility="private">
+  <method name="get" start="119" end="124" abstract="false" final="false" static="false" visibility="private">
     <docblock>
       <description compact="Read raw data from opened socket."/>
       <return type="string"/>
     </docblock>
     <return type="string" nullable="false"/>
   </method>
-  <method name="sendRequest" start="132" end="143" abstract="false" final="false" static="false" visibility="protected">
+  <method name="sendRequest" start="135" end="146" abstract="false" final="false" static="false" visibility="protected">
     <docblock>
       <description compact="Send SNP Request message to server."/>
       <param type="object" variable="$request">
@@ -111,10 +123,10 @@
       <type full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request"/>
     </parameter>
     <inline>
-      <comment value="set password authentication for request" line="134"/>
+      <comment value="Set password authentication for request." line="137"/>
     </inline>
   </method>
-  <method name="notify" start="153" end="162" abstract="false" final="false" static="false" visibility="public">
+  <method name="notify" start="157" end="166" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="Send SNP Notify Request message to server."/>
       <param type="object" variable="$notification">
@@ -134,7 +146,7 @@
       <type full="bTd\SNP\Protocol\Message\Request\NotifyRequest" namespace="bTd\SNP\Protocol\Message\Request" name="NotifyRequest"/>
     </parameter>
   </method>
-  <method name="register" start="172" end="179" abstract="false" final="false" static="false" visibility="public">
+  <method name="register" start="177" end="184" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="Send SNP Register Request message to server."/>
       <param type="object" variable="$application">
@@ -154,7 +166,7 @@
       <type full="bTd\SNP\Protocol\Message\Request\RegisterRequest" namespace="bTd\SNP\Protocol\Message\Request" name="RegisterRequest"/>
     </parameter>
   </method>
-  <method name="forward" start="189" end="194" abstract="false" final="false" static="false" visibility="public">
+  <method name="forward" start="195" end="200" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="Send SNP Forward Request message to server."/>
       <param type="object" variable="$forward">
@@ -174,7 +186,7 @@
       <type full="bTd\SNP\Protocol\Message\Request\ForwardRequest" namespace="bTd\SNP\Protocol\Message\Request" name="ForwardRequest"/>
     </parameter>
   </method>
-  <destructor name="__destruct" start="200" end="206" abstract="false" final="false" static="false" visibility="public">
+  <destructor name="__destruct" start="206" end="212" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="Destructor - close opened socket"/>
     </docblock>

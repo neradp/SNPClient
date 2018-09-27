@@ -1,13 +1,10 @@
 <?php
 /**
- * Copyright (c) 2018. Peter Nerád
- */
-
-/**
  * Project: SNPClient
- * Author: Peter Nerád
- * Date: 15. 9. 2018
- * Time: 11:50
+ *
+ * @author    Peter Nerád <nerad.peter@gmail.com>
+ * @copyright 2018 Peter Nerád
+ * @license   https://opensource.org/licenses/MIT MIT
  */
 
 namespace bTd\SNP\Protocol\Message\Request;

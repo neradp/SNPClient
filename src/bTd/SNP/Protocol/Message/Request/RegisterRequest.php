@@ -1,13 +1,10 @@
 <?php
 /**
- * Copyright (c) 2018. Peter Nerád
- */
-
-/**
  * Project: SNPClient
- * Author: Peter Nerád
- * Date: 19. 9. 2018
- * Time: 22:55
+ *
+ * @author    Peter Nerád <nerad.peter@gmail.com>
+ * @copyright 2018 Peter Nerád
+ * @license   https://opensource.org/licenses/MIT MIT
  */
 
 namespace bTd\SNP\Protocol\Message\Request;
@@ -28,16 +25,15 @@ class RegisterRequest extends Request
     /**
      * RegisterRequest constructor.
      *
-     * @param string $appSig
+     * @param string $appID
      * @param string $title
      * @param string $icon
-     * @param int    $keep_alive
+     * @param int    $keepAlive
      */
     public function __construct(string $appID, string $title, string $icon, int $keepAlive=1)
     {
 
-        $this->setRequestType(Protocol::REQUEST_TYPE_REGISTER);
-
+        parent::__construct(Protocol::REQUEST_TYPE_REGISTER);
         $this->addToContent("app-id", $appID);
         $this->addToContent("title", $title);
         $this->addToContent("icon", $icon);

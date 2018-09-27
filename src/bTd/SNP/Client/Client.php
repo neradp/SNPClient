@@ -1,13 +1,10 @@
 <?php
 /**
- * Copyright (c) 2018. Peter Nerád
- */
-
-/**
  * Project: SNPClient
- * Author: Peter Nerád
- * Date: 15. 9. 2018
- * Time: 10:30
+ *
+ * @author    Peter Nerád <nerad.peter@gmail.com>
+ * @copyright 2018 Peter Nerád
+ * @license   https://opensource.org/licenses/MIT MIT
  */
 
 namespace bTd\SNP\Client;
@@ -51,9 +48,10 @@ class Client
     /**
      * Client constructor.
      *
-     * @param  string      $host     Server IP address.
-     * @param  int         $port     Server port.
-     * @param  string|null $password Password to verify.
+     * @param string      $host     Server IP address.
+     * @param int         $port     Server port.
+     * @param string|null $password Password to verify.
+     *
      * @throws \RuntimeException
      */
     public function __construct(string $host, int $port=9731, string $password=null)
@@ -61,7 +59,7 @@ class Client
         $this->host     = $host;
         $this->port     = $port;
         $this->password = $password;
-        // create socket
+        // Create socket.
         $this->socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) or $this->error();
         $this->connect();
 
@@ -71,9 +69,10 @@ class Client
     /**
      * Compose RuntimeException from socket error and throws it.
      *
+     * @return void
      * @throws \RuntimeException
      */
-    private function error()
+    private function error(): void
     {
         $code = socket_last_error($this->socket);
         $msg  = socket_strerror($code);
@@ -85,9 +84,10 @@ class Client
     /**
      * Connect socket  to server.
      *
+     * @return void
      * @throws \RuntimeException
      */
-    private function connect()
+    private function connect():void
     {
 
         socket_connect($this->socket, $this->host, $this->port) or $this->error();
@@ -98,10 +98,12 @@ class Client
     /**
      * Send raw data to socket.
      *
-     * @param  string $data Data to send to opened socket.
+     * @param string $data Data to send to opened socket.
+     *
+     * @return void
      * @throws \RuntimeException
      */
-    private function send(string $data)
+    private function send(string $data):void
     {
 
         socket_write($this->socket, $data, strlen($data)) or $this->error();
@@ -125,13 +127,14 @@ class Client
     /**
      * Send SNP Request message to server.
      *
-     * @param  Request $request
+     * @param Request $request
+     *
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException|\Exception
      */
     protected function sendRequest(Request $request): Response
     {
-        // set password authentication for request
+        // Set password authentication for request.
         if ($this->password !== null) {
             $request->authenticate($this->password);
         }
@@ -146,7 +149,8 @@ class Client
     /**
      * Send SNP Notify Request message to server.
      *
-     * @param  NotifyRequest $notification
+     * @param NotifyRequest $notification
+     *
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
@@ -165,7 +169,8 @@ class Client
     /**
      * Send SNP Register Request message to server.
      *
-     * @param  RegisterRequest $application
+     * @param RegisterRequest $application
+     *
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
@@ -182,7 +187,8 @@ class Client
     /**
      *  Send SNP Forward Request message to server.
      *
-     * @param  ForwardRequest $forward
+     * @param ForwardRequest $forward
+     *
      * @return Response
      * @throws \bTd\SNP\Protocol\Message\Response\ErrorResponseException
      */
@@ -199,7 +205,7 @@ class Client
      */
     public function __destruct()
     {
-        if (is_resource($this->socket)) {
+        if (is_resource($this->socket) === true) {
             socket_close($this->socket);
         }
 

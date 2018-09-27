@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request\RegisterRequest" namespace="bTd\SNP\Protocol\Message\Request" name="RegisterRequest" abstract="false" final="false" start="24" end="59">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="RegisterRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/RegisterRequest.php" size="1231" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="75a8c6ea6b5cf8e39e4ce6968b0c85638e3c0bcf" relative="bTd/SNP/Protocol/Message/Request/RegisterRequest.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Message\Request\RegisterRequest" namespace="bTd\SNP\Protocol\Message\Request" name="RegisterRequest" abstract="false" final="false" start="21" end="55">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request" file="RegisterRequest.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Message/Request/RegisterRequest.php" size="1261" time="2018-09-27T19:06:20+02:00" unixtime="1538067980" sha1="5845e42f2fc9435d99734c05ee34657653336f15" relative="bTd/SNP/Protocol/Message/Request/RegisterRequest.php"/>
   <docblock>
     <description compact="Class RegisterRequest"/>
     <package value="bTd\SNP\Protocol\Message\Request"/>
     <see value="https://github.com/fullphat/snarl/wiki/Snarl-API-Reference#register"/>
   </docblock>
   <extends full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request"/>
-  <constructor name="__construct" start="36" end="46" abstract="false" final="false" static="false" visibility="public">
+  <constructor name="__construct" start="33" end="42" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description compact="RegisterRequest constructor."/>
-      <param type="string" variable="$appSig"/>
+      <param type="string" variable="$appID"/>
       <param type="string" variable="$title"/>
       <param type="string" variable="$icon"/>
-      <param type="int" variable="$keep_alive"/>
+      <param type="int" variable="$keepAlive"/>
     </docblock>
     <parameter name="appID" byreference="false" type="string"/>
     <parameter name="title" byreference="false" type="string"/>
     <parameter name="icon" byreference="false" type="string"/>
     <parameter name="keepAlive" byreference="false" type="integer" default="1"/>
   </constructor>
-  <method name="getApplicationIdentification" start="52" end="56" abstract="false" final="false" static="false" visibility="public">
+  <method name="getApplicationIdentification" start="48" end="52" abstract="false" final="false" static="false" visibility="public">
     <docblock>
       <description/>
       <return type="string"/>
@@ -29,77 +29,94 @@
   </method>
   <parent full="bTd\SNP\Protocol\Message\Request" namespace="bTd\SNP\Protocol\Message" name="Request">
     <extends full="bTd\SNP\Protocol\Message" namespace="bTd\SNP\Protocol" name="Message"/>
-    <constructor name="__construct" start="39" end="43" abstract="false" final="false" static="false" visibility="public">
+    <constructor name="__construct" start="36" end="40" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description/>
         <param description="Contain the type of request message." type="string" variable="$requestType"/>
       </docblock>
       <parameter name="requestType" byreference="false" type="{unknown}"/>
     </constructor>
-    <method name="getRequestType" start="51" end="55" abstract="false" final="false" static="false" visibility="public">
+    <method name="getRequestType" start="48" end="52" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Get type of request message."/>
         <return description="Type of request message." type="string"/>
       </docblock>
       <return type="string" nullable="false"/>
     </method>
-    <method name="setRequestType" start="64" end="73" abstract="false" final="false" static="false" visibility="protected">
+    <method name="setRequestType" start="63" end="72" abstract="false" final="false" static="false" visibility="protected">
       <docblock>
         <description compact="Update header of message by the request type."/>
         <param description="Type of request message." type="string" variable="$type"/>
+        <return type="object">
+          <type full="bTd\SNP\Protocol\Message\void" namespace="bTd\SNP\Protocol\Message" name="void"/>
+        </return>
         <throws type="object">
           <type full="\TypeError" namespace="" name="TypeError"/>
         </throws>
       </docblock>
+      <return type="void" nullable="false"/>
       <parameter name="type" byreference="false" type="string"/>
     </method>
-    <method name="authenticate" start="83" end="91" abstract="false" final="false" static="false" visibility="public">
+    <method name="authenticate" start="84" end="92" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Add authentication part to message header."/>
         <param type="string" variable="$password"/>
+        <return type="object">
+          <type full="bTd\SNP\Protocol\Message\void" namespace="bTd\SNP\Protocol\Message" name="void"/>
+        </return>
         <throws type="object">
           <type full="\Exception" namespace="" name="Exception"/>
         </throws>
         <see value="https://github.com/fullphat/snarl/wiki/SNP-3.1#authentication https://github.com/fullphat/snarl/wiki/Snarl-Developer-Guide#authentication"/>
       </docblock>
+      <return type="void" nullable="false"/>
       <parameter name="password" byreference="false" type="string"/>
     </method>
-    <method name="setApplicationIdentification" start="99" end="103" abstract="false" final="false" static="false" visibility="public">
+    <method name="setApplicationIdentification" start="102" end="106" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Add registered application ID to message content, common routine for request messages."/>
         <param description="Registered Application ID." type="string" variable="$appID"/>
+        <return type="object">
+          <type full="bTd\SNP\Protocol\Message\void" namespace="bTd\SNP\Protocol\Message" name="void"/>
+        </return>
       </docblock>
       <return type="void" nullable="false"/>
       <parameter name="appID" byreference="false" type="string"/>
     </method>
   </parent>
   <parent full="bTd\SNP\Protocol\Message" namespace="bTd\SNP\Protocol" name="Message">
-    <method name="getContent" start="44" end="48" abstract="false" final="false" static="false" visibility="public">
+    <method name="getContent" start="41" end="45" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Get the whole  content part of the message."/>
         <return description="The whole content part of message." type="array"/>
       </docblock>
       <return type="array" nullable="false"/>
     </method>
-    <method name="setContent" start="56" end="60" abstract="false" final="false" static="false" visibility="public">
+    <method name="setContent" start="55" end="59" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Set the whole content part of the message."/>
-        <param description="The whole content part of message." type="array" variable="$conntent"/>
+        <param type="array" variable="$content"/>
+        <return type="object">
+          <type full="bTd\SNP\Protocol\void" namespace="bTd\SNP\Protocol" name="void"/>
+        </return>
       </docblock>
       <return type="void" nullable="false"/>
       <parameter name="content" byreference="false" type="array"/>
     </method>
-    <method name="addToContent" start="69" end="73" abstract="false" final="false" static="false" visibility="public">
+    <method name="addToContent" start="70" end="74" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Add a named value to the content part of message."/>
         <param description="Name." type="string" variable="$param"/>
         <param description="Value." type="string" variable="$value"/>
+        <return type="object">
+          <type full="bTd\SNP\Protocol\void" namespace="bTd\SNP\Protocol" name="void"/>
+        </return>
       </docblock>
       <return type="void" nullable="false"/>
       <parameter name="param" byreference="false" type="string"/>
       <parameter name="value" byreference="false" type="string"/>
     </method>
-    <method name="getFromContent" start="82" end="86" abstract="false" final="false" static="false" visibility="public">
+    <method name="getFromContent" start="84" end="88" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Get a value from the content part of message by its name."/>
         <param description="Name." type="string" variable="$param"/>
@@ -108,29 +125,32 @@
       <return type="string" nullable="false"/>
       <parameter name="param" byreference="false" type="string"/>
     </method>
-    <method name="__toString" start="94" end="105" abstract="false" final="false" static="false" visibility="public">
+    <method name="__toString" start="96" end="107" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Compose message to raw format."/>
         <return description="The raw format of message." type="string"/>
       </docblock>
       <return type="string" nullable="false"/>
     </method>
-    <method name="getHeader" start="113" end="117" abstract="false" final="false" static="false" visibility="public">
+    <method name="getHeader" start="115" end="119" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Get the header part of the message."/>
         <return description="The message header." type="string"/>
       </docblock>
       <return type="string" nullable="false"/>
     </method>
-    <method name="setHeader" start="125" end="129" abstract="false" final="false" static="false" visibility="public">
+    <method name="setHeader" start="129" end="133" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Set the header part of the message."/>
         <param description="The message header." type="string" variable="$header"/>
+        <return type="object">
+          <type full="bTd\SNP\Protocol\void" namespace="bTd\SNP\Protocol" name="void"/>
+        </return>
       </docblock>
       <return type="void" nullable="false"/>
       <parameter name="header" byreference="false" type="string"/>
     </method>
-    <method name="getTerminator" start="137" end="141" abstract="false" final="false" static="false" visibility="public">
+    <method name="getTerminator" start="141" end="145" abstract="false" final="false" static="false" visibility="public">
       <docblock>
         <description compact="Get the terminator part of the message."/>
         <return description="The terminator part of message." type="string"/>

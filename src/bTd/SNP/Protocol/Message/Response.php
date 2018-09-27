@@ -1,13 +1,10 @@
 <?php
 /**
- * Copyright (c) 2018. Peter Nerád
- */
-
-/**
  * Project: SNPClient
- * Author: Peter Nerád
- * Date: 17. 9. 2018
- * Time: 22:16
+ *
+ * @author    Peter Nerád <nerad.peter@gmail.com>
+ * @copyright 2018 Peter Nerád
+ * @license   https://opensource.org/licenses/MIT MIT
  */
 
 namespace bTd\SNP\Protocol\Message;
@@ -29,7 +26,8 @@ class Response extends Message
     /**
      * Response constructor.
      *
-     * @param  string $response Raw response message.
+     * @param string $response Raw response message.
+     *
      * @throws ErrorResponseException
      */
     public function __construct(string $response)
@@ -37,14 +35,14 @@ class Response extends Message
 
         $responseData = explode(Protocol::EOL, $response);
         $this->setHeader($responseData[0]);
-
-        for ($i = 1; $i < (sizeof($responseData) - 2); $i++) {
-            list($k, $v) = explode(':', $responseData[$i]);
-            $this->addToContent($k, trim($v));
+        $length = (count($responseData) - 2);
+        for ($i = 1; $i < $length; $i++) {
+            list($key, $value) = explode(':', $responseData[$i]);
+            $this->addToContent($key, trim($value));
         }
 
-        // in case message is not success response throw exception
-        if (!$this->isSuccess()) {
+        // In case message is not success response throw exception.
+        if ($this->isSuccess() !== true) {
             $this->throwErrorException();
         }
 
@@ -56,21 +54,22 @@ class Response extends Message
      */
     public function isSuccess(): bool
     {
-        // check to success response header
-        if (preg_match("#^".Protocol::VERSION." ".Protocol::RESPONSE_TYPE_SUCCESS."$#", $this->getHeader())) {
+        // Check to success response header.
+        if (preg_match("#^".Protocol::VERSION." ".Protocol::RESPONSE_TYPE_SUCCESS."$#", $this->getHeader()) === 1) {
             return true;
         }
 
-        // everything else is bad
+        // Everything else is bad.
         return false;
 
     }//end isSuccess()
 
 
     /**
+     * @return void
      * @throws ErrorResponseException
      */
-    protected function throwErrorException(): \Exception
+    protected function throwErrorException(): void
     {
         throw new ErrorResponseException($this->getFromContent('error-name'), (int) $this->getFromContent('error-number'), $this->getFromContent('reason'));
 

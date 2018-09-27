@@ -1,13 +1,10 @@
 <?php
 /**
- * Copyright (c) 2018. Peter Nerád
- */
-
-/**
  * Project: SNPClient
- * Author: Peter Nerád
- * Date: 15. 9. 2018
- * Time: 10:49
+ *
+ * @author    Peter Nerád <nerad.peter@gmail.com>
+ * @copyright 2018 Peter Nerád
+ * @license   https://opensource.org/licenses/MIT MIT
  */
 
 namespace bTd\SNP\Protocol;
@@ -51,7 +48,9 @@ class Message
     /**
      * Set the whole content part of the message.
      *
-     * @param array $conntent The whole content part of message.
+     * @param array $content
+     *
+     * @return void
      */
     public function setContent(array $content): void
     {
@@ -65,6 +64,8 @@ class Message
      *
      * @param string $param Name.
      * @param string $value Value.
+     *
+     * @return void
      */
     public function addToContent(string $param, string $value): void
     {
@@ -76,12 +77,13 @@ class Message
     /**
      * Get a value from the content part of message by its name.
      *
-     * @param  string $param Name.
+     * @param string $param Name.
+     *
      * @return string Value.
      */
     public function getFromContent(string $param): string
     {
-        return $this->content[$param] ?? "";
+        return ($this->content[$param] ?? "");
 
     }//end getFromContent()
 
@@ -121,6 +123,8 @@ class Message
      * Set the header part of the message.
      *
      * @param string $header The message header.
+     *
+     * @return void
      */
     public function setHeader(string $header): void
     {

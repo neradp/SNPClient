@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Protocol" namespace="bTd\SNP\Protocol" name="Protocol" abstract="false" final="true" start="20" end="71">
-  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol" file="Protocol.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Protocol.php" size="1312" time="2018-09-25T18:24:17+02:00" unixtime="1537892657" sha1="8e7712c3adea77e9244525fcf46c9e7403f2a779" relative="bTd/SNP/Protocol/Protocol.php"/>
+<class xmlns="http://xml.phpdox.net/src" full="bTd\SNP\Protocol\Protocol" namespace="bTd\SNP\Protocol" name="Protocol" abstract="false" final="true" start="17" end="65">
+  <file path="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol" file="Protocol.php" realpath="C:/Users/peter/Projects/SNPClient/src/bTd/SNP/Protocol/Protocol.php" size="1344" time="2018-09-27T19:18:15+02:00" unixtime="1538068695" sha1="5ce81c274041a5cf59fba9755e8b5724fe174cc7" relative="bTd/SNP/Protocol/Protocol.php"/>
   <docblock>
     <description compact="Class Protocol"/>
     <package value="bTd\SNP\Protocol"/>
